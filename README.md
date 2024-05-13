@@ -87,8 +87,6 @@ inoue <- read_csv("data/提出用/votes.csv") %>%
   dplyr::select(code,pref_city,uc,inoue_ratio_change,exp_inoue_ratio_change,
                 ldp_ratio_change,`A2301_住民基本台帳人口（総数）`,everything())
 
-
-glimpse(inoue)
 ```
 
 ## 井上氏の得票に各変数が与える効果を調べる
@@ -418,7 +416,7 @@ model_c_n <- matchit(as.formula(paste("uc ~", paste(varsC, collapse = " + "))),
 ```
 
 
-　次に遺伝的マッチングをする。コードはチャンクの中に埋め込んでいるが、チャンクの中身を表示すると、膨大な計算の途中経過まで出力されてしまうため、やむを得ず非表示にしてある。マッチングのための様々なパラメータは以下の通り。
+　次に遺伝的マッチングをする。マッチングのための様々なパラメータは以下の通り。
 
  
 method = "genetic",
