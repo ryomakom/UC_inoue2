@@ -1,0 +1,3236 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="朝日新聞デジタル企画報道部　小宮山亮磨 @ryomakom" />
+
+<meta name="date" content="2024-03-14" />
+
+<title>旧統一教会が参院選に与えた影響の推定</title>
+
+<script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="site_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">UC_inoue.R</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="about.html">about</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">旧統一教会が参院選に与えた影響の推定</h1>
+<h4 class="author">朝日新聞デジタル企画報道部　小宮山亮磨 <span
+class="citation">@ryomakom</span></h4>
+<h4 class="date">2024-03-14</h4>
+
+</div>
+
+
+<div id="この文書について" class="section level2">
+<h2>この文書について</h2>
+<p>　日本選挙学会の機関誌「選挙研究」に投稿する予定の論文「旧統一教会が参院選に与えた影響の推定　自民党・井上義行氏の得票を例に」の分析手法や結果について、もとになったデータやRのコードとともに公開します。</p>
+</div>
+<div id="必要なパッケージをとってくる" class="section level2">
+<h2>必要なパッケージをとってくる</h2>
+<pre class="r"><code>library(tidyverse)
+library(modelsummary)
+library(MatchIt)
+library(rgenoud)
+library(cobalt)
+library(zipangu)
+library(estimatr)
+library(gt)
+
+if (!require(&quot;broom&quot;, character.only = TRUE)) {
+  install.packages(&quot;broom&quot;)
+  library(&quot;broom&quot;, character.only = TRUE)
+}</code></pre>
+</div>
+<div id="元データを加工" class="section level2">
+<h2>元データを加工</h2>
+<p>　以下の四つのファイルを読み込み、分析用に加工する。</p>
+<p>・各市区町村に割り振られたコード</p>
+<p>・旧統一教会がウェブサイトで公表している「家庭教会」の所在地</p>
+<p>・参院選における井上義行氏の得票記録</p>
+<p>・e-Statから取得した各市区町村の「社会・人口統計体系」データ</p>
+<pre class="r"><code># 市区町村ごとに割り振られたコード
+jiscode &lt;- read_csv(&quot;data/提出用/jiscode.csv&quot;)</code></pre>
+<pre><code>## Rows: 1896 Columns: 4
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (3): code, pref, pref_city
+## dbl (1): asahicode
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<pre class="r"><code>#旧統一教会の拠点289カ所がおかれた259自治体にタグを振る
+church &lt;- read_csv(&quot;data/提出用/教会所在地.csv&quot;) %&gt;%
+  mutate(address_components=separate_address(address)) %&gt;%
+  unnest_wider(col = address_components) %&gt;%
+  select(-address) %&gt;% 
+  mutate(prefecture=str_sub(prefecture,start=11,end=-1),
+         pref_city=str_c(prefecture,city),
+         uc=1) %&gt;% 
+  distinct(pref_city,uc) %&gt;% 
+  left_join(jiscode %&gt;% select(code,pref_city)) %&gt;% 
+  select(code,uc)</code></pre>
+<pre><code>## Rows: 289 Columns: 1
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (1): address
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(pref_city)`</code></pre>
+<pre class="r"><code># 井上氏の得票データを読み込み、「社会・人口統計体系」データを合体
+inoue &lt;- read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+  mutate(inoue_ratio=井上得票*100/投票者数,
+         exp_inoue_ratio=(自民得票計-井上得票)*100/投票者数,
+         ldp_ratio=自民_党_の得票*100/投票者数) %&gt;%
+  select(year,code,pref_city,inoue_ratio,exp_inoue_ratio,ldp_ratio) %&gt;%
+  pivot_wider(names_from = year,
+              values_from = c(inoue_ratio,exp_inoue_ratio,ldp_ratio)) %&gt;%
+  mutate(inoue_ratio_change=inoue_ratio_2022-inoue_ratio_2019,
+         exp_inoue_ratio_change=exp_inoue_ratio_2022-exp_inoue_ratio_2019,
+         ldp_ratio_change=ldp_ratio_2022-ldp_ratio_2019) %&gt;%
+  dplyr::select(-inoue_ratio_2022,
+                -inoue_ratio_2019,
+                -exp_inoue_ratio_2022,
+                -exp_inoue_ratio_2019,
+                -ldp_ratio_2022,
+                -ldp_ratio_2019) %&gt;%
+  left_join(church) %&gt;%
+  mutate(uc=ifelse(is.na(uc),0,1)) %&gt;% 
+  left_join(read_csv(&quot;data/提出用/mun_data.csv&quot;) %&gt;% # 各市区町村の「社会・人口統計体系」データ
+              select(-地域),
+            by=c(&quot;code&quot;=&quot;area_code&quot;)) %&gt;% 
+  select_if(negate(anyNA)) %&gt;% # NAを含む列を除外
+  select(-contains(&quot;（男）&quot;), # 意味が重複する列を除外
+         -contains(&quot;（女）&quot;),
+         -contains(&quot;（外国人）&quot;),
+          -contains(&quot;その他&quot;)) %&gt;% 
+  dplyr::select(code,pref_city,uc,inoue_ratio_change,exp_inoue_ratio_change,
+                ldp_ratio_change,`A2301_住民基本台帳人口（総数）`,everything())</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`
+## Rows: 1917 Columns: 263
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr   (2): area_code, 地域
+## dbl (261): A2101_住民基本台帳人口（日本人）, A210101_住民基本台帳人口（日本人）（男）, A210102_住民基本台帳人口（日...
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<pre class="r"><code>glimpse(inoue)</code></pre>
+<pre><code>## Rows: 1,896
+## Columns: 105
+## $ code                                                              &lt;chr&gt; &quot;011…
+## $ pref_city                                                         &lt;chr&gt; &quot;北…
+## $ uc                                                                &lt;dbl&gt; 0, 1…
+## $ inoue_ratio_change                                                &lt;dbl&gt; 0.00…
+## $ exp_inoue_ratio_change                                            &lt;dbl&gt; -0.0…
+## $ ldp_ratio_change                                                  &lt;dbl&gt; 1.77…
+## $ `A2301_住民基本台帳人口（総数）`                                  &lt;dbl&gt; 2381…
+## $ `A2101_住民基本台帳人口（日本人）`                                &lt;dbl&gt; 2352…
+## $ A4101_出生数                                                      &lt;dbl&gt; 1560…
+## $ A4200_死亡数                                                      &lt;dbl&gt; 2177…
+## $ `A5101_転入者数（日本人移動者）`                                  &lt;dbl&gt; 2095…
+## $ `A5102_転出者数（日本人移動者）`                                  &lt;dbl&gt; 1782…
+## $ A5103_転入者数                                                    &lt;dbl&gt; 2145…
+## $ A5104_転出者数                                                    &lt;dbl&gt; 1835…
+## $ `A7103_住民基本台帳世帯数（日本人）`                              &lt;dbl&gt; 1417…
+## $ A9101_婚姻件数                                                    &lt;dbl&gt; 1650…
+## $ A9201_離婚件数                                                    &lt;dbl&gt; 567,…
+## $ `B1101_総面積（北方地域及び竹島を除く）`                          &lt;dbl&gt; 4642…
+## $ `B1102_総面積（北方地域及び竹島を含む）`                          &lt;dbl&gt; 4642…
+## $ B1103_可住地面積                                                  &lt;dbl&gt; 2685…
+## $ B1104_主要湖沼面積                                                &lt;dbl&gt; 0, 0…
+## $ B1105_林野面積                                                    &lt;dbl&gt; 2039…
+## $ B1106_森林面積                                                    &lt;dbl&gt; 2038…
+## $ B1107_森林以外の草生地面積                                        &lt;dbl&gt; 1, 1…
+## $ `C2109_事業所数（国・地方公共団体）（経済センサス‐基礎調査結果）` &lt;dbl&gt; 178,…
+## $ `C310201_農家数（販売農家）`                                      &lt;dbl&gt; 6, 6…
+## $ `C310202_農家数（自給的農家）`                                    &lt;dbl&gt; 4, 4…
+## $ C3403_製造業事業所数                                              &lt;dbl&gt; 85, …
+## $ C3404_製造業従業者数                                              &lt;dbl&gt; 1651…
+## $ E1101_幼稚園数                                                    &lt;dbl&gt; 14, …
+## $ E1501_幼稚園在園者数                                              &lt;dbl&gt; 1677…
+## $ E2101_小学校数                                                    &lt;dbl&gt; 16, …
+## $ E2401_小学校教員数                                                &lt;dbl&gt; 491,…
+## $ E2501_小学校児童数                                                &lt;dbl&gt; 9719…
+## $ E3101_中学校数                                                    &lt;dbl&gt; 10, …
+## $ E3401_中学校教員数                                                &lt;dbl&gt; 278,…
+## $ E3501_中学校生徒数                                                &lt;dbl&gt; 4233…
+## $ E3901_義務教育学校数                                              &lt;dbl&gt; 0, 0…
+## $ E3902_義務教育学校前期課程学級数                                  &lt;dbl&gt; 0, 0…
+## $ E3903_義務教育学校後期課程学級数                                  &lt;dbl&gt; 0, 0…
+## $ E3904_義務教育学校教員数                                          &lt;dbl&gt; 0, 0…
+## $ E3905_義務教育学校前期課程児童数                                  &lt;dbl&gt; 0, 0…
+## $ E3906_義務教育学校後期課程生徒数                                  &lt;dbl&gt; 0, 0…
+## $ E4101_高等学校数                                                  &lt;dbl&gt; 8, 9…
+## $ E4501_高等学校生徒数                                              &lt;dbl&gt; 6305…
+## $ F1101_労働力人口                                                  &lt;dbl&gt; 1088…
+## $ F1102_就業者数                                                    &lt;dbl&gt; 1037…
+## $ `F1103_就業者数・主に仕事`                                        &lt;dbl&gt; 8793…
+## $ `F1104_就業者数・家事のほか仕事`                                  &lt;dbl&gt; 1076…
+## $ `F1105_就業者数・通学のかたわら仕事`                              &lt;dbl&gt; 2247…
+## $ `F1106_就業者数・休業者`                                          &lt;dbl&gt; 2765…
+## $ F1107_完全失業者数                                                &lt;dbl&gt; 5099…
+## $ F1108_非労働力人口                                                &lt;dbl&gt; 6551…
+## $ `F1109_非労働力人口・家事`                                        &lt;dbl&gt; 2549…
+## $ `F1110_非労働力人口・通学`                                        &lt;dbl&gt; 9619…
+## $ `F2116_就業者数（65歳以上）`                                      &lt;dbl&gt; 1198…
+## $ F2201_第1次産業就業者数                                           &lt;dbl&gt; 303,…
+## $ F2211_第2次産業就業者数                                           &lt;dbl&gt; 8534…
+## $ F2221_第3次産業就業者数                                           &lt;dbl&gt; 9159…
+## $ `F2401_雇用者数（国勢調査結果）`                                  &lt;dbl&gt; 8373…
+## $ F2402_役員数                                                      &lt;dbl&gt; 8752…
+## $ F2403_雇人のある業主数                                            &lt;dbl&gt; 2156…
+## $ F2404_雇人のない業主数                                            &lt;dbl&gt; 5865…
+## $ `F2405_家族従業者数（国勢調査結果）`                              &lt;dbl&gt; 1187…
+## $ F2406_自営業主及び家族従業者数                                    &lt;dbl&gt; 9208…
+## $ `F2409_雇用者数（正規の職員・従業員）`                            &lt;dbl&gt; 5665…
+## $ `F2410_雇用者数（労働者派遣事業所の派遣社員）`                    &lt;dbl&gt; 3074…
+## $ F2701_自市区町村で従業している就業者数                            &lt;dbl&gt; 7283…
+## $ F2702_県内他市区町村で従業している就業者数                        &lt;dbl&gt; 2747…
+## $ F2703_他県で従業している就業者数                                  &lt;dbl&gt; 260,…
+## $ F2705_他市区町村への通勤者数                                      &lt;dbl&gt; 2773…
+## $ F2801_従業地による就業者数                                        &lt;dbl&gt; 2470…
+## $ F2802_他県に常住している就業者数                                  &lt;dbl&gt; 466,…
+## $ F2803_他市区町村からの通勤者数                                    &lt;dbl&gt; 1710…
+## $ G1201_公民館数                                                    &lt;dbl&gt; 0, 0…
+## $ G1401_図書館数                                                    &lt;dbl&gt; 2, 1…
+## $ H7701_テレビ放送受信契約数                                        &lt;dbl&gt; 1094…
+## $ H770101_衛星放送受信契約数                                        &lt;dbl&gt; 6770…
+## $ I5101_病院数                                                      &lt;dbl&gt; 39, …
+## $ I510110_精神科病院数                                              &lt;dbl&gt; 4, 5…
+## $ I510120_一般病院数                                                &lt;dbl&gt; 35, …
+## $ I510150_療養病床を有する病院数                                    &lt;dbl&gt; 10, …
+## $ I5102_一般診療所数                                                &lt;dbl&gt; 371,…
+## $ I510201_有床一般診療所数                                          &lt;dbl&gt; 26, …
+## $ I5103_歯科診療所数                                                &lt;dbl&gt; 285,…
+## $ I5211_病院病床数                                                  &lt;dbl&gt; 8590…
+## $ I5212_一般診療所病床数                                            &lt;dbl&gt; 264,…
+## $ `I5511_介護老人保健施設数（基本票）`                              &lt;dbl&gt; 5, 7…
+## $ `I5512_介護老人保健施設定員数（基本票）`                          &lt;dbl&gt; 491,…
+## $ `J2221_保護施設数（基本票）（医療保護施設を除く）`                &lt;dbl&gt; 0, 0…
+## $ `J230127_介護老人福祉施設数（基本票）`                            &lt;dbl&gt; 6, 1…
+## $ `J230128_介護老人福祉施設定員数（基本票）`                        &lt;dbl&gt; 513,…
+## $ `J2304_老人福祉施設数（基本票）`                                  &lt;dbl&gt; 4, 4…
+## $ `J230411_養護老人ホーム数（基本票）`                              &lt;dbl&gt; 2, 0…
+## $ `J230412_養護老人ホーム定員数（基本票）`                          &lt;dbl&gt; 130,…
+## $ `J230421_有料老人ホーム数（基本票）`                              &lt;dbl&gt; 43, …
+## $ `J230422_有料老人ホーム定員数（基本票）`                          &lt;dbl&gt; 2342…
+## $ `J230431_軽費老人ホーム数（基本票）`                              &lt;dbl&gt; 1, 3…
+## $ `J230432_軽費老人ホーム定員数（基本票）`                          &lt;dbl&gt; 100,…
+## $ `J250204_児童福祉施設等数（基本票）`                              &lt;dbl&gt; 80, …
+## $ `J250302_保育所等数（基本票）`                                    &lt;dbl&gt; 38, …
+## $ `J250303_公営保育所等数（基本票）`                                &lt;dbl&gt; 1, 4…
+## $ `J2804_母子・父子福祉施設数（基本票）`                            &lt;dbl&gt; 2, 0…
+## $ `J2905_障害者支援施設等数（基本票）`                              &lt;dbl&gt; 12, …
+## $ `J2906_婦人保護施設数（基本票）`                                  &lt;dbl&gt; 0, 0…</code></pre>
+</div>
+<div id="井上氏の得票に各変数が与える効果を調べる"
+class="section level2">
+<h2>井上氏の得票に各変数が与える効果を調べる</h2>
+<p>　各変数を標準化したうえで、井上氏の得票率変化量を目的変数とした単回帰分析をして、それぞれの効果量を調べる。</p>
+<pre class="r"><code># 得票率とUC有無以外のすべての説明変数を人口で割る
+for(i in 8:105){
+  inoue[,i] &lt;- inoue[,i]/inoue[,7]
+}
+
+# 井上氏の得票率変化量とUC有無以外のすべての変数を標準化
+for(i in 5:105){
+  inoue[,i] &lt;- inoue[,i] %&gt;%
+    scale()
+}
+
+# 分析のためにデータフレーム形式に変える
+inoue &lt;- inoue %&gt;% 
+  as.data.frame()
+
+
+# 各変数と井上氏の得票率変化量との単回帰分析をする
+resFrame1&lt;-data.frame() # forループのたびに上書きする一時的なデータフレーム
+resFrame2&lt;-data.frame() # 最終結果を書き込むデータフレーム
+
+for(i in 5:105){
+  result &lt;- summary(lm(inoue$inoue_ratio_change~inoue[,i]))
+  
+  coef &lt;- result$coefficients
+  
+  resFrame1 &lt;- coef # i番目の出力結果を代入
+  resFrame2 &lt;- rbind(resFrame2,resFrame1) # resFrame2の末行にresFrame1を代入
+}</code></pre>
+<p>　効果量の大きい順に変数を並べると以下のようになる。</p>
+<pre class="r"><code>resFrame2 %&gt;%
+  as_tibble() %&gt;%
+  mutate(num=row_number()/2,
+         int=ifelse(str_sub(num,-2,-2)==&quot;.&quot;,0,1)) %&gt;%
+  filter(int==1) %&gt;%
+  select(-int) %&gt;%
+  left_join(names(inoue) %&gt;%
+              as_tibble() %&gt;%
+              mutate(num=row_number()-4) %&gt;%
+              filter(num&gt;=1) %&gt;%
+              rename(variable=value)) %&gt;%
+  mutate(abs_estimate=abs(Estimate)) %&gt;%
+  select(num,variable,everything()) %&gt;%
+  arrange(desc(abs_estimate)) %&gt;% 
+  knitr::kable()</code></pre>
+<pre><code>## Joining with `by = join_by(num)`</code></pre>
+<table>
+<colgroup>
+<col width="2%" />
+<col width="48%" />
+<col width="8%" />
+<col width="8%" />
+<col width="8%" />
+<col width="14%" />
+<col width="9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="right">num</th>
+<th align="left">variable</th>
+<th align="right">Estimate</th>
+<th align="right">Std. Error</th>
+<th align="right">t value</th>
+<th align="right">Pr(&gt;|t|)</th>
+<th align="right">abs_estimate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">73</td>
+<td align="left">H7701_テレビ放送受信契約数</td>
+<td align="right">-0.0438120</td>
+<td align="right">0.0067474</td>
+<td align="right">-6.4931276</td>
+<td align="right">0.0000000</td>
+<td align="right">0.0438120</td>
+</tr>
+<tr class="even">
+<td align="right">11</td>
+<td align="left">A7103_住民基本台帳世帯数（日本人）</td>
+<td align="right">-0.0344873</td>
+<td align="right">0.0067759</td>
+<td align="right">-5.0896695</td>
+<td align="right">0.0000004</td>
+<td align="right">0.0344873</td>
+</tr>
+<tr class="odd">
+<td align="right">58</td>
+<td align="left">F2403_雇人のある業主数</td>
+<td align="right">-0.0312255</td>
+<td align="right">0.0067843</td>
+<td align="right">-4.6026146</td>
+<td align="right">0.0000044</td>
+<td align="right">0.0312255</td>
+</tr>
+<tr class="even">
+<td align="right">54</td>
+<td align="left">F2211_第2次産業就業者数</td>
+<td align="right">0.0280497</td>
+<td align="right">0.0067916</td>
+<td align="right">4.1300541</td>
+<td align="right">0.0000378</td>
+<td align="right">0.0280497</td>
+</tr>
+<tr class="odd">
+<td align="right">74</td>
+<td align="left">H770101_衛星放送受信契約数</td>
+<td align="right">-0.0271988</td>
+<td align="right">0.0067934</td>
+<td align="right">-4.0036895</td>
+<td align="right">0.0000648</td>
+<td align="right">0.0271988</td>
+</tr>
+<tr class="even">
+<td align="right">5</td>
+<td align="left">A4101_出生数</td>
+<td align="right">0.0265545</td>
+<td align="right">0.0067948</td>
+<td align="right">3.9080719</td>
+<td align="right">0.0000963</td>
+<td align="right">0.0265545</td>
+</tr>
+<tr class="odd">
+<td align="right">51</td>
+<td align="left">F1110_非労働力人口・通学</td>
+<td align="right">0.0261241</td>
+<td align="right">0.0067957</td>
+<td align="right">3.8442263</td>
+<td align="right">0.0001249</td>
+<td align="right">0.0261241</td>
+</tr>
+<tr class="even">
+<td align="right">1</td>
+<td align="left">exp_inoue_ratio_change</td>
+<td align="right">-0.0251714</td>
+<td align="right">0.0067976</td>
+<td align="right">-3.7029965</td>
+<td align="right">0.0002192</td>
+<td align="right">0.0251714</td>
+</tr>
+<tr class="odd">
+<td align="right">88</td>
+<td align="left">J230128_介護老人福祉施設定員数（基本票）</td>
+<td align="right">-0.0251376</td>
+<td align="right">0.0067976</td>
+<td align="right">-3.6980006</td>
+<td align="right">0.0002235</td>
+<td align="right">0.0251376</td>
+</tr>
+<tr class="even">
+<td align="right">10</td>
+<td align="left">A5104_転出者数</td>
+<td align="right">-0.0234283</td>
+<td align="right">0.0068009</td>
+<td align="right">-3.4449041</td>
+<td align="right">0.0005837</td>
+<td align="right">0.0234283</td>
+</tr>
+<tr class="odd">
+<td align="right">30</td>
+<td align="left">E2501_小学校児童数</td>
+<td align="right">0.0233908</td>
+<td align="right">0.0068009</td>
+<td align="right">3.4393573</td>
+<td align="right">0.0005957</td>
+<td align="right">0.0233908</td>
+</tr>
+<tr class="even">
+<td align="right">8</td>
+<td align="left">A5102_転出者数（日本人移動者）</td>
+<td align="right">-0.0221734</td>
+<td align="right">0.0068031</td>
+<td align="right">-3.2593279</td>
+<td align="right">0.0011366</td>
+<td align="right">0.0221734</td>
+</tr>
+<tr class="odd">
+<td align="right">67</td>
+<td align="left">F2705_他市区町村への通勤者数</td>
+<td align="right">0.0216796</td>
+<td align="right">0.0068039</td>
+<td align="right">3.1863491</td>
+<td align="right">0.0014643</td>
+<td align="right">0.0216796</td>
+</tr>
+<tr class="even">
+<td align="right">65</td>
+<td align="left">F2702_県内他市区町村で従業している就業者数</td>
+<td align="right">0.0216616</td>
+<td align="right">0.0068039</td>
+<td align="right">3.1836868</td>
+<td align="right">0.0014777</td>
+<td align="right">0.0216616</td>
+</tr>
+<tr class="odd">
+<td align="right">6</td>
+<td align="left">A4200_死亡数</td>
+<td align="right">-0.0208530</td>
+<td align="right">0.0068053</td>
+<td align="right">-3.0642363</td>
+<td align="right">0.0022130</td>
+<td align="right">0.0208530</td>
+</tr>
+<tr class="even">
+<td align="right">3</td>
+<td align="left">A2301_住民基本台帳人口（総数）</td>
+<td align="right">0.0205608</td>
+<td align="right">0.0068057</td>
+<td align="right">3.0211013</td>
+<td align="right">0.0025523</td>
+<td align="right">0.0205608</td>
+</tr>
+<tr class="odd">
+<td align="right">16</td>
+<td align="left">B1103_可住地面積</td>
+<td align="right">-0.0203284</td>
+<td align="right">0.0068061</td>
+<td align="right">-2.9867843</td>
+<td align="right">0.0028555</td>
+<td align="right">0.0203284</td>
+</tr>
+<tr class="even">
+<td align="right">64</td>
+<td align="left">F2701_自市区町村で従業している就業者数</td>
+<td align="right">-0.0201710</td>
+<td align="right">0.0068064</td>
+<td align="right">-2.9635530</td>
+<td align="right">0.0030790</td>
+<td align="right">0.0201710</td>
+</tr>
+<tr class="odd">
+<td align="right">85</td>
+<td align="left">I5512_介護老人保健施設定員数（基本票）</td>
+<td align="right">-0.0201636</td>
+<td align="right">0.0068064</td>
+<td align="right">-2.9624560</td>
+<td align="right">0.0030900</td>
+<td align="right">0.0201636</td>
+</tr>
+<tr class="even">
+<td align="right">33</td>
+<td align="left">E3501_中学校生徒数</td>
+<td align="right">0.0199719</td>
+<td align="right">0.0068067</td>
+<td align="right">2.9341615</td>
+<td align="right">0.0033847</td>
+<td align="right">0.0199719</td>
+</tr>
+<tr class="odd">
+<td align="right">21</td>
+<td
+align="left">C2109_事業所数（国・地方公共団体）（経済センサス‐基礎調査結果）</td>
+<td align="right">-0.0193451</td>
+<td align="right">0.0068076</td>
+<td align="right">-2.8416816</td>
+<td align="right">0.0045357</td>
+<td align="right">0.0193451</td>
+</tr>
+<tr class="even">
+<td align="right">25</td>
+<td align="left">C3404_製造業従業者数</td>
+<td align="right">0.0191186</td>
+<td align="right">0.0068080</td>
+<td align="right">2.8082732</td>
+<td align="right">0.0050319</td>
+<td align="right">0.0191186</td>
+</tr>
+<tr class="odd">
+<td align="right">87</td>
+<td align="left">J230127_介護老人福祉施設数（基本票）</td>
+<td align="right">-0.0185773</td>
+<td align="right">0.0068088</td>
+<td align="right">-2.7284404</td>
+<td align="right">0.0064223</td>
+<td align="right">0.0185773</td>
+</tr>
+<tr class="even">
+<td align="right">15</td>
+<td align="left">B1102_総面積（北方地域及び竹島を含む）</td>
+<td align="right">-0.0185752</td>
+<td align="right">0.0068088</td>
+<td align="right">-2.7281357</td>
+<td align="right">0.0064282</td>
+<td align="right">0.0185752</td>
+</tr>
+<tr class="odd">
+<td align="right">14</td>
+<td align="left">B1101_総面積（北方地域及び竹島を除く）</td>
+<td align="right">-0.0185647</td>
+<td align="right">0.0068088</td>
+<td align="right">-2.7265875</td>
+<td align="right">0.0064583</td>
+<td align="right">0.0185647</td>
+</tr>
+<tr class="even">
+<td align="right">61</td>
+<td align="left">F2406_自営業主及び家族従業者数</td>
+<td align="right">-0.0182216</td>
+<td align="right">0.0068093</td>
+<td align="right">-2.6760066</td>
+<td align="right">0.0075147</td>
+<td align="right">0.0182216</td>
+</tr>
+<tr class="odd">
+<td align="right">95</td>
+<td align="left">J230432_軽費老人ホーム定員数（基本票）</td>
+<td align="right">0.0181220</td>
+<td align="right">0.0068094</td>
+<td align="right">2.6613200</td>
+<td align="right">0.0078493</td>
+<td align="right">0.0181220</td>
+</tr>
+<tr class="even">
+<td align="right">60</td>
+<td align="left">F2405_家族従業者数（国勢調査結果）</td>
+<td align="right">-0.0177122</td>
+<td align="right">0.0068100</td>
+<td align="right">-2.6009188</td>
+<td align="right">0.0093698</td>
+<td align="right">0.0177122</td>
+</tr>
+<tr class="odd">
+<td align="right">23</td>
+<td align="left">C310202_農家数（自給的農家）</td>
+<td align="right">0.0176357</td>
+<td align="right">0.0068101</td>
+<td align="right">2.5896446</td>
+<td align="right">0.0096811</td>
+<td align="right">0.0176357</td>
+</tr>
+<tr class="even">
+<td align="right">28</td>
+<td align="left">E2101_小学校数</td>
+<td align="right">-0.0174986</td>
+<td align="right">0.0068103</td>
+<td align="right">-2.5694459</td>
+<td align="right">0.0102620</td>
+<td align="right">0.0174986</td>
+</tr>
+<tr class="odd">
+<td align="right">53</td>
+<td align="left">F2201_第1次産業就業者数</td>
+<td align="right">-0.0174842</td>
+<td align="right">0.0068103</td>
+<td align="right">-2.5673235</td>
+<td align="right">0.0103248</td>
+<td align="right">0.0174842</td>
+</tr>
+<tr class="even">
+<td align="right">18</td>
+<td align="left">B1105_林野面積</td>
+<td align="right">-0.0172838</td>
+<td align="right">0.0068106</td>
+<td align="right">-2.5377911</td>
+<td align="right">0.0112350</td>
+<td align="right">0.0172838</td>
+</tr>
+<tr class="odd">
+<td align="right">20</td>
+<td align="left">B1107_森林以外の草生地面積</td>
+<td align="right">-0.0169612</td>
+<td align="right">0.0068110</td>
+<td align="right">-2.4902657</td>
+<td align="right">0.0128499</td>
+<td align="right">0.0169612</td>
+</tr>
+<tr class="even">
+<td align="right">19</td>
+<td align="left">B1106_森林面積</td>
+<td align="right">-0.0168347</td>
+<td align="right">0.0068111</td>
+<td align="right">-2.4716402</td>
+<td align="right">0.0135368</td>
+<td align="right">0.0168347</td>
+</tr>
+<tr class="odd">
+<td align="right">52</td>
+<td align="left">F2116_就業者数（65歳以上）</td>
+<td align="right">-0.0165184</td>
+<td align="right">0.0068116</td>
+<td align="right">-2.4250547</td>
+<td align="right">0.0153990</td>
+<td align="right">0.0165184</td>
+</tr>
+<tr class="even">
+<td align="right">62</td>
+<td align="left">F2409_雇用者数（正規の職員・従業員）</td>
+<td align="right">0.0163157</td>
+<td align="right">0.0068118</td>
+<td align="right">2.3952032</td>
+<td align="right">0.0167078</td>
+<td align="right">0.0163157</td>
+</tr>
+<tr class="odd">
+<td align="right">84</td>
+<td align="left">I5511_介護老人保健施設数（基本票）</td>
+<td align="right">-0.0158665</td>
+<td align="right">0.0068124</td>
+<td align="right">-2.3290672</td>
+<td align="right">0.0199602</td>
+<td align="right">0.0158665</td>
+</tr>
+<tr class="even">
+<td align="right">98</td>
+<td align="left">J250303_公営保育所等数（基本票）</td>
+<td align="right">-0.0158038</td>
+<td align="right">0.0068125</td>
+<td align="right">-2.3198453</td>
+<td align="right">0.0204551</td>
+<td align="right">0.0158038</td>
+</tr>
+<tr class="odd">
+<td align="right">83</td>
+<td align="left">I5212_一般診療所病床数</td>
+<td align="right">-0.0154813</td>
+<td align="right">0.0068128</td>
+<td align="right">-2.2723658</td>
+<td align="right">0.0231761</td>
+<td align="right">0.0154813</td>
+</tr>
+<tr class="even">
+<td align="right">29</td>
+<td align="left">E2401_小学校教員数</td>
+<td align="right">-0.0153856</td>
+<td align="right">0.0068130</td>
+<td align="right">-2.2582834</td>
+<td align="right">0.0240414</td>
+<td align="right">0.0153856</td>
+</tr>
+<tr class="odd">
+<td align="right">27</td>
+<td align="left">E1501_幼稚園在園者数</td>
+<td align="right">0.0150361</td>
+<td align="right">0.0068134</td>
+<td align="right">2.2068487</td>
+<td align="right">0.0274442</td>
+<td align="right">0.0150361</td>
+</tr>
+<tr class="even">
+<td align="right">56</td>
+<td align="left">F2401_雇用者数（国勢調査結果）</td>
+<td align="right">0.0142447</td>
+<td align="right">0.0068143</td>
+<td align="right">2.0904178</td>
+<td align="right">0.0367133</td>
+<td align="right">0.0142447</td>
+</tr>
+<tr class="odd">
+<td align="right">94</td>
+<td align="left">J230431_軽費老人ホーム数（基本票）</td>
+<td align="right">0.0134095</td>
+<td align="right">0.0068152</td>
+<td align="right">1.9675919</td>
+<td align="right">0.0492607</td>
+<td align="right">0.0134095</td>
+</tr>
+<tr class="even">
+<td align="right">99</td>
+<td align="left">J2804_母子・父子福祉施設数（基本票）</td>
+<td align="right">0.0133887</td>
+<td align="right">0.0068152</td>
+<td align="right">1.9645433</td>
+<td align="right">0.0496131</td>
+<td align="right">0.0133887</td>
+</tr>
+<tr class="odd">
+<td align="right">63</td>
+<td align="left">F2410_雇用者数（労働者派遣事業所の派遣社員）</td>
+<td align="right">0.0133843</td>
+<td align="right">0.0068152</td>
+<td align="right">1.9638904</td>
+<td align="right">0.0496889</td>
+<td align="right">0.0133843</td>
+</tr>
+<tr class="even">
+<td align="right">89</td>
+<td align="left">J2304_老人福祉施設数（基本票）</td>
+<td align="right">0.0123567</td>
+<td align="right">0.0068162</td>
+<td align="right">1.8128385</td>
+<td align="right">0.0700150</td>
+<td align="right">0.0123567</td>
+</tr>
+<tr class="odd">
+<td align="right">40</td>
+<td align="left">E4101_高等学校数</td>
+<td align="right">-0.0123261</td>
+<td align="right">0.0068162</td>
+<td align="right">-1.8083432</td>
+<td align="right">0.0707117</td>
+<td align="right">0.0123261</td>
+</tr>
+<tr class="even">
+<td align="right">57</td>
+<td align="left">F2402_役員数</td>
+<td align="right">-0.0122691</td>
+<td align="right">0.0068163</td>
+<td align="right">-1.7999659</td>
+<td align="right">0.0720251</td>
+<td align="right">0.0122691</td>
+</tr>
+<tr class="odd">
+<td align="right">49</td>
+<td align="left">F1108_非労働力人口</td>
+<td align="right">-0.0120455</td>
+<td align="right">0.0068165</td>
+<td align="right">-1.7671079</td>
+<td align="right">0.0773712</td>
+<td align="right">0.0120455</td>
+</tr>
+<tr class="even">
+<td align="right">82</td>
+<td align="left">I5211_病院病床数</td>
+<td align="right">0.0120096</td>
+<td align="right">0.0068165</td>
+<td align="right">1.7618278</td>
+<td align="right">0.0782597</td>
+<td align="right">0.0120096</td>
+</tr>
+<tr class="odd">
+<td align="right">55</td>
+<td align="left">F2221_第3次産業就業者数</td>
+<td align="right">-0.0117624</td>
+<td align="right">0.0068168</td>
+<td align="right">-1.7255163</td>
+<td align="right">0.0845976</td>
+<td align="right">0.0117624</td>
+</tr>
+<tr class="even">
+<td align="right">24</td>
+<td align="left">C3403_製造業事業所数</td>
+<td align="right">0.0117517</td>
+<td align="right">0.0068168</td>
+<td align="right">1.7239426</td>
+<td align="right">0.0848814</td>
+<td align="right">0.0117517</td>
+</tr>
+<tr class="odd">
+<td align="right">32</td>
+<td align="left">E3401_中学校教員数</td>
+<td align="right">-0.0110308</td>
+<td align="right">0.0068174</td>
+<td align="right">-1.6180300</td>
+<td align="right">0.1058226</td>
+<td align="right">0.0110308</td>
+</tr>
+<tr class="even">
+<td align="right">68</td>
+<td align="left">F2801_従業地による就業者数</td>
+<td align="right">-0.0107887</td>
+<td align="right">0.0068176</td>
+<td align="right">-1.5824796</td>
+<td align="right">0.1137071</td>
+<td align="right">0.0107887</td>
+</tr>
+<tr class="odd">
+<td align="right">46</td>
+<td align="left">F1105_就業者数・通学のかたわら仕事</td>
+<td align="right">0.0107674</td>
+<td align="right">0.0068176</td>
+<td align="right">1.5793448</td>
+<td align="right">0.1144240</td>
+<td align="right">0.0107674</td>
+</tr>
+<tr class="even">
+<td align="right">31</td>
+<td align="left">E3101_中学校数</td>
+<td align="right">-0.0106863</td>
+<td align="right">0.0068177</td>
+<td align="right">-1.5674378</td>
+<td align="right">0.1171794</td>
+<td align="right">0.0106863</td>
+</tr>
+<tr class="odd">
+<td align="right">59</td>
+<td align="left">F2404_雇人のない業主数</td>
+<td align="right">-0.0102719</td>
+<td align="right">0.0068180</td>
+<td align="right">-1.5065799</td>
+<td align="right">0.1320851</td>
+<td align="right">0.0102719</td>
+</tr>
+<tr class="even">
+<td align="right">97</td>
+<td align="left">J250302_保育所等数（基本票）</td>
+<td align="right">-0.0102150</td>
+<td align="right">0.0068181</td>
+<td align="right">-1.4982230</td>
+<td align="right">0.1342420</td>
+<td align="right">0.0102150</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="left">A5101_転入者数（日本人移動者）</td>
+<td align="right">-0.0095574</td>
+<td align="right">0.0068186</td>
+<td align="right">-1.4016648</td>
+<td align="right">0.1611792</td>
+<td align="right">0.0095574</td>
+</tr>
+<tr class="even">
+<td align="right">9</td>
+<td align="left">A5103_転入者数</td>
+<td align="right">-0.0095374</td>
+<td align="right">0.0068186</td>
+<td align="right">-1.3987274</td>
+<td align="right">0.1620585</td>
+<td align="right">0.0095374</td>
+</tr>
+<tr class="odd">
+<td align="right">72</td>
+<td align="left">G1401_図書館数</td>
+<td align="right">0.0088796</td>
+<td align="right">0.0068191</td>
+<td align="right">1.3021686</td>
+<td align="right">0.1930171</td>
+<td align="right">0.0088796</td>
+</tr>
+<tr class="even">
+<td align="right">45</td>
+<td align="left">F1104_就業者数・家事のほか仕事</td>
+<td align="right">-0.0088695</td>
+<td align="right">0.0068191</td>
+<td align="right">-1.3006915</td>
+<td align="right">0.1935223</td>
+<td align="right">0.0088695</td>
+</tr>
+<tr class="odd">
+<td align="right">12</td>
+<td align="left">A9101_婚姻件数</td>
+<td align="right">0.0083544</td>
+<td align="right">0.0068194</td>
+<td align="right">1.2250869</td>
+<td align="right">0.2206948</td>
+<td align="right">0.0083544</td>
+</tr>
+<tr class="even">
+<td align="right">71</td>
+<td align="left">G1201_公民館数</td>
+<td align="right">0.0082674</td>
+<td align="right">0.0068195</td>
+<td align="right">1.2123160</td>
+<td align="right">0.2255426</td>
+<td align="right">0.0082674</td>
+</tr>
+<tr class="odd">
+<td align="right">96</td>
+<td align="left">J250204_児童福祉施設等数（基本票）</td>
+<td align="right">-0.0082506</td>
+<td align="right">0.0068195</td>
+<td align="right">-1.2098607</td>
+<td align="right">0.2264833</td>
+<td align="right">0.0082506</td>
+</tr>
+<tr class="even">
+<td align="right">90</td>
+<td align="left">J230411_養護老人ホーム数（基本票）</td>
+<td align="right">0.0081618</td>
+<td align="right">0.0068195</td>
+<td align="right">1.1968292</td>
+<td align="right">0.2315229</td>
+<td align="right">0.0081618</td>
+</tr>
+<tr class="odd">
+<td align="right">17</td>
+<td align="left">B1104_主要湖沼面積</td>
+<td align="right">-0.0081448</td>
+<td align="right">0.0068196</td>
+<td align="right">-1.1943260</td>
+<td align="right">0.2325000</td>
+<td align="right">0.0081448</td>
+</tr>
+<tr class="even">
+<td align="right">80</td>
+<td align="left">I510201_有床一般診療所数</td>
+<td align="right">-0.0076444</td>
+<td align="right">0.0068199</td>
+<td align="right">-1.1209064</td>
+<td align="right">0.2624698</td>
+<td align="right">0.0076444</td>
+</tr>
+<tr class="odd">
+<td align="right">2</td>
+<td align="left">ldp_ratio_change</td>
+<td align="right">-0.0073203</td>
+<td align="right">0.0068201</td>
+<td align="right">-1.0733531</td>
+<td align="right">0.2832495</td>
+<td align="right">0.0073203</td>
+</tr>
+<tr class="even">
+<td align="right">76</td>
+<td align="left">I510110_精神科病院数</td>
+<td align="right">0.0070016</td>
+<td align="right">0.0068202</td>
+<td align="right">1.0265957</td>
+<td align="right">0.3047420</td>
+<td align="right">0.0070016</td>
+</tr>
+<tr class="odd">
+<td align="right">79</td>
+<td align="left">I5102_一般診療所数</td>
+<td align="right">-0.0067542</td>
+<td align="right">0.0068204</td>
+<td align="right">-0.9902992</td>
+<td align="right">0.3221544</td>
+<td align="right">0.0067542</td>
+</tr>
+<tr class="even">
+<td align="right">81</td>
+<td align="left">I5103_歯科診療所数</td>
+<td align="right">-0.0065236</td>
+<td align="right">0.0068205</td>
+<td align="right">-0.9564794</td>
+<td align="right">0.3389522</td>
+<td align="right">0.0065236</td>
+</tr>
+<tr class="odd">
+<td align="right">93</td>
+<td align="left">J230422_有料老人ホーム定員数（基本票）</td>
+<td align="right">-0.0063223</td>
+<td align="right">0.0068206</td>
+<td align="right">-0.9269494</td>
+<td align="right">0.3540709</td>
+<td align="right">0.0063223</td>
+</tr>
+<tr class="even">
+<td align="right">78</td>
+<td align="left">I510150_療養病床を有する病院数</td>
+<td align="right">0.0063174</td>
+<td align="right">0.0068206</td>
+<td align="right">0.9262267</td>
+<td align="right">0.3544462</td>
+<td align="right">0.0063174</td>
+</tr>
+<tr class="odd">
+<td align="right">69</td>
+<td align="left">F2802_他県に常住している就業者数</td>
+<td align="right">-0.0062431</td>
+<td align="right">0.0068206</td>
+<td align="right">-0.9153257</td>
+<td align="right">0.3601372</td>
+<td align="right">0.0062431</td>
+</tr>
+<tr class="even">
+<td align="right">47</td>
+<td align="left">F1106_就業者数・休業者</td>
+<td align="right">-0.0061459</td>
+<td align="right">0.0068207</td>
+<td align="right">-0.9010641</td>
+<td align="right">0.3676688</td>
+<td align="right">0.0061459</td>
+</tr>
+<tr class="odd">
+<td align="right">91</td>
+<td align="left">J230412_養護老人ホーム定員数（基本票）</td>
+<td align="right">0.0059050</td>
+<td align="right">0.0068208</td>
+<td align="right">0.8657396</td>
+<td align="right">0.3867426</td>
+<td align="right">0.0059050</td>
+</tr>
+<tr class="even">
+<td align="right">36</td>
+<td align="left">E3903_義務教育学校後期課程学級数</td>
+<td align="right">-0.0049706</td>
+<td align="right">0.0068212</td>
+<td align="right">-0.7287078</td>
+<td align="right">0.4662705</td>
+<td align="right">0.0049706</td>
+</tr>
+<tr class="odd">
+<td align="right">13</td>
+<td align="left">A9201_離婚件数</td>
+<td align="right">-0.0048021</td>
+<td align="right">0.0068212</td>
+<td align="right">-0.7039948</td>
+<td align="right">0.4815226</td>
+<td align="right">0.0048021</td>
+</tr>
+<tr class="even">
+<td align="right">34</td>
+<td align="left">E3901_義務教育学校数</td>
+<td align="right">-0.0047784</td>
+<td align="right">0.0068212</td>
+<td align="right">-0.7005220</td>
+<td align="right">0.4836874</td>
+<td align="right">0.0047784</td>
+</tr>
+<tr class="odd">
+<td align="right">4</td>
+<td align="left">A2101_住民基本台帳人口（日本人）</td>
+<td align="right">-0.0046982</td>
+<td align="right">0.0068213</td>
+<td align="right">-0.6887547</td>
+<td align="right">0.4910620</td>
+<td align="right">0.0046982</td>
+</tr>
+<tr class="even">
+<td align="right">70</td>
+<td align="left">F2803_他市区町村からの通勤者数</td>
+<td align="right">-0.0046321</td>
+<td align="right">0.0068213</td>
+<td align="right">-0.6790653</td>
+<td align="right">0.4971795</td>
+<td align="right">0.0046321</td>
+</tr>
+<tr class="odd">
+<td align="right">92</td>
+<td align="left">J230421_有料老人ホーム数（基本票）</td>
+<td align="right">0.0044267</td>
+<td align="right">0.0068214</td>
+<td align="right">0.6489474</td>
+<td align="right">0.5164511</td>
+<td align="right">0.0044267</td>
+</tr>
+<tr class="even">
+<td align="right">37</td>
+<td align="left">E3904_義務教育学校教員数</td>
+<td align="right">-0.0041806</td>
+<td align="right">0.0068214</td>
+<td align="right">-0.6128586</td>
+<td align="right">0.5400434</td>
+<td align="right">0.0041806</td>
+</tr>
+<tr class="odd">
+<td align="right">22</td>
+<td align="left">C310201_農家数（販売農家）</td>
+<td align="right">0.0038978</td>
+<td align="right">0.0068215</td>
+<td align="right">0.5713973</td>
+<td align="right">0.5677981</td>
+<td align="right">0.0038978</td>
+</tr>
+<tr class="even">
+<td align="right">39</td>
+<td align="left">E3906_義務教育学校後期課程生徒数</td>
+<td align="right">-0.0037786</td>
+<td align="right">0.0068216</td>
+<td align="right">-0.5539129</td>
+<td align="right">0.5797038</td>
+<td align="right">0.0037786</td>
+</tr>
+<tr class="odd">
+<td align="right">38</td>
+<td align="left">E3905_義務教育学校前期課程児童数</td>
+<td align="right">-0.0037783</td>
+<td align="right">0.0068216</td>
+<td align="right">-0.5538749</td>
+<td align="right">0.5797299</td>
+<td align="right">0.0037783</td>
+</tr>
+<tr class="even">
+<td align="right">66</td>
+<td align="left">F2703_他県で従業している就業者数</td>
+<td align="right">0.0037620</td>
+<td align="right">0.0068216</td>
+<td align="right">0.5514856</td>
+<td align="right">0.5813659</td>
+<td align="right">0.0037620</td>
+</tr>
+<tr class="odd">
+<td align="right">35</td>
+<td align="left">E3902_義務教育学校前期課程学級数</td>
+<td align="right">-0.0036613</td>
+<td align="right">0.0068216</td>
+<td align="right">-0.5367275</td>
+<td align="right">0.5915189</td>
+<td align="right">0.0036613</td>
+</tr>
+<tr class="even">
+<td align="right">101</td>
+<td align="left">J2906_婦人保護施設数（基本票）</td>
+<td align="right">0.0034579</td>
+<td align="right">0.0068217</td>
+<td align="right">0.5068994</td>
+<td align="right">0.6122844</td>
+<td align="right">0.0034579</td>
+</tr>
+<tr class="odd">
+<td align="right">100</td>
+<td align="left">J2905_障害者支援施設等数（基本票）</td>
+<td align="right">-0.0033062</td>
+<td align="right">0.0068217</td>
+<td align="right">-0.4846526</td>
+<td align="right">0.6279788</td>
+<td align="right">0.0033062</td>
+</tr>
+<tr class="even">
+<td align="right">26</td>
+<td align="left">E1101_幼稚園数</td>
+<td align="right">0.0032439</td>
+<td align="right">0.0068217</td>
+<td align="right">0.4755188</td>
+<td align="right">0.6344721</td>
+<td align="right">0.0032439</td>
+</tr>
+<tr class="odd">
+<td align="right">42</td>
+<td align="left">F1101_労働力人口</td>
+<td align="right">-0.0031255</td>
+<td align="right">0.0068217</td>
+<td align="right">-0.4581673</td>
+<td align="right">0.6468848</td>
+<td align="right">0.0031255</td>
+</tr>
+<tr class="even">
+<td align="right">43</td>
+<td align="left">F1102_就業者数</td>
+<td align="right">-0.0028581</td>
+<td align="right">0.0068218</td>
+<td align="right">-0.4189663</td>
+<td align="right">0.6752882</td>
+<td align="right">0.0028581</td>
+</tr>
+<tr class="odd">
+<td align="right">77</td>
+<td align="left">I510120_一般病院数</td>
+<td align="right">-0.0022168</td>
+<td align="right">0.0068219</td>
+<td align="right">-0.3249564</td>
+<td align="right">0.7452500</td>
+<td align="right">0.0022168</td>
+</tr>
+<tr class="even">
+<td align="right">48</td>
+<td align="left">F1107_完全失業者数</td>
+<td align="right">-0.0021213</td>
+<td align="right">0.0068220</td>
+<td align="right">-0.3109486</td>
+<td align="right">0.7558739</td>
+<td align="right">0.0021213</td>
+</tr>
+<tr class="odd">
+<td align="right">44</td>
+<td align="left">F1103_就業者数・主に仕事</td>
+<td align="right">-0.0015716</td>
+<td align="right">0.0068220</td>
+<td align="right">-0.2303774</td>
+<td align="right">0.8178234</td>
+<td align="right">0.0015716</td>
+</tr>
+<tr class="even">
+<td align="right">41</td>
+<td align="left">E4501_高等学校生徒数</td>
+<td align="right">0.0013567</td>
+<td align="right">0.0068221</td>
+<td align="right">0.1988688</td>
+<td align="right">0.8423868</td>
+<td align="right">0.0013567</td>
+</tr>
+<tr class="odd">
+<td align="right">50</td>
+<td align="left">F1109_非労働力人口・家事</td>
+<td align="right">-0.0006041</td>
+<td align="right">0.0068221</td>
+<td align="right">-0.0885447</td>
+<td align="right">0.9294531</td>
+<td align="right">0.0006041</td>
+</tr>
+<tr class="even">
+<td align="right">86</td>
+<td align="left">J2221_保護施設数（基本票）（医療保護施設を除く）</td>
+<td align="right">0.0005347</td>
+<td align="right">0.0068221</td>
+<td align="right">0.0783794</td>
+<td align="right">0.9375345</td>
+<td align="right">0.0005347</td>
+</tr>
+<tr class="odd">
+<td align="right">75</td>
+<td align="left">I5101_病院数</td>
+<td align="right">-0.0000993</td>
+<td align="right">0.0068221</td>
+<td align="right">-0.0145578</td>
+<td align="right">0.9883865</td>
+<td align="right">0.0000993</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="マッチングをしていく" class="section level2">
+<h2>マッチングをしていく</h2>
+<p>　以下の３モデルのそれぞれについて、最近傍マッチングと遺伝的マッチングを行う。つまり計６パターンのマッチングをする。</p>
+<ol style="list-style-type: upper-alpha">
+<li>社会・人口統計体系から入手した98個の変数すべてに、井上氏以外の自民党得票率変化量を加えた計99個</li>
+<li>社会・人口統計体系の変数全体のうち効果量の大きいもの10個に、井上氏以外の自民党得票率変化量を加えた計11個</li>
+<li>社会・人口統計体系の各分野のうち効果量が最大の変数9個に、井上氏以外の自民党得票率変化量を加えた計10個</li>
+</ol>
+<p>　まずは最近傍マッチングをする。</p>
+<pre class="r"><code># 各モデルで使う変数を指定する
+varsA &lt;- c(&quot;exp_inoue_ratio_change&quot;,
+           &quot;`A2301_住民基本台帳人口（総数）`&quot;,
+           &quot;`A2101_住民基本台帳人口（日本人）`&quot;,
+           &quot;`A4101_出生数`&quot;,
+           &quot;`A4200_死亡数`&quot;,
+           &quot;`A5101_転入者数（日本人移動者）`&quot;,
+           &quot;`A5102_転出者数（日本人移動者）`&quot;,
+           &quot;`A5103_転入者数`&quot;,
+           &quot;`A5104_転出者数`&quot;,
+           &quot;`A7103_住民基本台帳世帯数（日本人）`&quot;,
+           &quot;`A9101_婚姻件数`&quot;,
+           &quot;`A9201_離婚件数`&quot;,
+           &quot;`B1101_総面積（北方地域及び竹島を除く）`&quot;,
+           &quot;`B1102_総面積（北方地域及び竹島を含む）`&quot;,
+           &quot;`B1103_可住地面積`&quot;,
+           &quot;`B1104_主要湖沼面積`&quot;,
+           &quot;`B1105_林野面積`&quot;,
+           &quot;`B1106_森林面積`&quot;,
+           &quot;`B1107_森林以外の草生地面積`&quot;,
+           &quot;`C2109_事業所数（国・地方公共団体）（経済センサス‐基礎調査結果）`&quot;,
+           &quot;`C310201_農家数（販売農家）`&quot;,
+           &quot;`C310202_農家数（自給的農家）`&quot;,
+           &quot;`C3403_製造業事業所数`&quot;,
+           &quot;`C3404_製造業従業者数`&quot;,
+           &quot;`E1101_幼稚園数`&quot;,
+           &quot;`E1501_幼稚園在園者数`&quot;,
+           &quot;`E2101_小学校数`&quot;,
+           &quot;`E2401_小学校教員数`&quot;,
+           &quot;`E2501_小学校児童数`&quot;,
+           &quot;`E3101_中学校数`&quot;,
+           &quot;`E3401_中学校教員数`&quot;,
+           &quot;`E3501_中学校生徒数`&quot;,
+           &quot;`E3901_義務教育学校数`&quot;,
+           &quot;`E3902_義務教育学校前期課程学級数`&quot;,
+           &quot;`E3903_義務教育学校後期課程学級数`&quot;,
+           &quot;`E3904_義務教育学校教員数`&quot;,
+           &quot;`E3905_義務教育学校前期課程児童数`&quot;,
+           &quot;`E3906_義務教育学校後期課程生徒数`&quot;,
+           &quot;`E4101_高等学校数`&quot;,
+           &quot;`E4501_高等学校生徒数`&quot;,
+           &quot;`F1101_労働力人口`&quot;,
+           &quot;`F1102_就業者数`&quot;,
+           &quot;`F1103_就業者数・主に仕事`&quot;,
+           &quot;`F1104_就業者数・家事のほか仕事`&quot;,
+           &quot;`F1105_就業者数・通学のかたわら仕事`&quot;,
+           &quot;`F1106_就業者数・休業者`&quot;,
+           &quot;`F1107_完全失業者数`&quot;,
+           &quot;`F1108_非労働力人口`&quot;,
+           &quot;`F1109_非労働力人口・家事`&quot;,
+           &quot;`F1110_非労働力人口・通学`&quot;,
+           &quot;`F2116_就業者数（65歳以上）`&quot;,
+           &quot;`F2201_第1次産業就業者数`&quot;,
+           &quot;`F2211_第2次産業就業者数`&quot;,
+           &quot;`F2221_第3次産業就業者数`&quot;,
+           &quot;`F2401_雇用者数（国勢調査結果）`&quot;,
+           &quot;`F2402_役員数`&quot;,
+           &quot;`F2403_雇人のある業主数`&quot;,
+           &quot;`F2404_雇人のない業主数`&quot;,
+           &quot;`F2405_家族従業者数（国勢調査結果）`&quot;,
+           &quot;`F2406_自営業主及び家族従業者数`&quot;,
+           &quot;`F2409_雇用者数（正規の職員・従業員）`&quot;,
+           &quot;`F2410_雇用者数（労働者派遣事業所の派遣社員）`&quot;,
+           &quot;`F2701_自市区町村で従業している就業者数`&quot;,
+           &quot;`F2702_県内他市区町村で従業している就業者数`&quot;,
+           &quot;`F2703_他県で従業している就業者数`&quot;,
+           &quot;`F2705_他市区町村への通勤者数`&quot;,
+           &quot;`F2801_従業地による就業者数`&quot;,
+           &quot;`F2802_他県に常住している就業者数`&quot;,
+           &quot;`F2803_他市区町村からの通勤者数`&quot;,
+           &quot;`G1201_公民館数`&quot;,
+           &quot;`G1401_図書館数`&quot;,
+           &quot;`H7701_テレビ放送受信契約数`&quot;,
+           &quot;`H770101_衛星放送受信契約数`&quot;,
+           &quot;`I5101_病院数`&quot;,
+           &quot;`I510110_精神科病院数`&quot;,
+           &quot;`I510120_一般病院数`&quot;,
+           &quot;`I510150_療養病床を有する病院数`&quot;,
+           &quot;`I5102_一般診療所数`&quot;,
+           &quot;`I510201_有床一般診療所数`&quot;,
+           &quot;`I5103_歯科診療所数`&quot;,
+           &quot;`I5211_病院病床数`&quot;,
+           &quot;`I5212_一般診療所病床数`&quot;,
+           &quot;`I5511_介護老人保健施設数（基本票）`&quot;,
+           &quot;`I5512_介護老人保健施設定員数（基本票）`&quot;,
+           &quot;`J2221_保護施設数（基本票）（医療保護施設を除く）`&quot;,
+           &quot;`J230127_介護老人福祉施設数（基本票）`&quot;,
+           &quot;`J230128_介護老人福祉施設定員数（基本票）`&quot;,
+           &quot;`J2304_老人福祉施設数（基本票）`&quot;,
+           &quot;`J230411_養護老人ホーム数（基本票）`&quot;,
+           &quot;`J230412_養護老人ホーム定員数（基本票）`&quot;,
+           &quot;`J230421_有料老人ホーム数（基本票）`&quot;,
+           &quot;`J230422_有料老人ホーム定員数（基本票）`&quot;,
+           &quot;`J230431_軽費老人ホーム数（基本票）`&quot;,
+           &quot;`J230432_軽費老人ホーム定員数（基本票）`&quot;,
+           &quot;`J250204_児童福祉施設等数（基本票）`&quot;,
+           &quot;`J250302_保育所等数（基本票）`&quot;,
+           &quot;`J250303_公営保育所等数（基本票）`&quot;,
+           &quot;`J2804_母子・父子福祉施設数（基本票）`&quot;,
+           &quot;`J2905_障害者支援施設等数（基本票）`&quot;,
+           &quot;`J2906_婦人保護施設数（基本票）`&quot;)
+
+
+varsB &lt;- c(&quot;exp_inoue_ratio_change&quot;,
+           &quot;`A4101_出生数`&quot;,
+           &quot;`A5104_転出者数`&quot;,
+           &quot;`A7103_住民基本台帳世帯数（日本人）`&quot;,
+           &quot;`E2501_小学校児童数`&quot;,
+           &quot;`F1110_非労働力人口・通学`&quot;,
+           &quot;`F2211_第2次産業就業者数`&quot;,
+           &quot;`F2403_雇人のある業主数`&quot;,
+           &quot;`H7701_テレビ放送受信契約数`&quot;,
+           &quot;`H770101_衛星放送受信契約数`&quot;,
+           &quot;`J230128_介護老人福祉施設定員数（基本票）`&quot;)
+
+varsC &lt;- c(&quot;exp_inoue_ratio_change&quot;,
+           &quot;`A7103_住民基本台帳世帯数（日本人）`&quot;,
+           &quot;`B1103_可住地面積`&quot;,
+           &quot;`C2109_事業所数（国・地方公共団体）（経済センサス‐基礎調査結果）`&quot;,
+           &quot;`E2501_小学校児童数`&quot;,
+           &quot;`F2403_雇人のある業主数`&quot;,
+           &quot;`G1401_図書館数`&quot;,
+           &quot;`H7701_テレビ放送受信契約数`&quot;,
+           &quot;`I5512_介護老人保健施設定員数（基本票）`&quot;,
+           &quot;`J230128_介護老人福祉施設定員数（基本票）`&quot;)
+
+
+# モデルAの最近傍マッチング
+
+model_a_n &lt;- matchit(as.formula(paste(&quot;uc ~&quot;, paste(varsA, collapse = &quot; + &quot;))),
+                     mehod = &quot;nearest&quot;,
+                     distance = &quot;mahalanobis&quot;,
+                     data=inoue)
+
+
+# モデルBの最近傍マッチング
+
+model_b_n &lt;- matchit(as.formula(paste(&quot;uc ~&quot;, paste(varsB, collapse = &quot; + &quot;))),
+                     mehod = &quot;nearest&quot;,
+                     distance = &quot;mahalanobis&quot;,
+                     data=inoue)
+
+# モデルCの最近傍マッチング
+
+model_c_n &lt;- matchit(as.formula(paste(&quot;uc ~&quot;, paste(varsC, collapse = &quot; + &quot;))),
+                     mehod = &quot;nearest&quot;,
+                     distance = &quot;mahalanobis&quot;,
+                     data=inoue)</code></pre>
+<p>　次に遺伝的マッチングをする。コードはチャンクの中に埋め込んでいるが、チャンクの中身を表示すると、膨大な計算の途中経過まで出力されてしまうため、やむを得ず非表示にしてある。マッチングのための様々なパラメータは以下の通り。</p>
+<p>method = “genetic”,</p>
+<p>distance = “mahalanobis”,</p>
+<p>pop.size = 1000,</p>
+<p>nboots = 1000,</p>
+<p>replace = TRUE,</p>
+<p>verbose = TRUE,</p>
+<p>estimand = “ATT”</p>
+</div>
+<div id="マッチングの結果を確認" class="section level2">
+<h2>マッチングの結果を確認</h2>
+<p>　共変量のバランスを確かめる。いずれのモデルでも遺伝的マッチングのほうがAbsolute
+Standardized Mean
+Differencesの平均値が小さくなる。つまり、よりよいマッチングができている。</p>
+<pre class="r"><code># モデルA、最近傍
+balance_a_n &lt;- bal.tab(model_a_n,un=TRUE)
+balance_a_n$Balance %&gt;%
+  as_tibble() %&gt;%
+  mutate(un_abs_mean_dif=abs(Diff.Un),
+         adj_abs_mean_dif=abs(Diff.Adj)) %&gt;%
+  summarize(mean(un_abs_mean_dif),
+            mean(adj_abs_mean_dif))</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##   `mean(un_abs_mean_dif)` `mean(adj_abs_mean_dif)`
+##                     &lt;dbl&gt;                    &lt;dbl&gt;
+## 1                    1.26                    0.151</code></pre>
+<pre class="r"><code># モデルA、遺伝的
+balance_a_g &lt;- bal.tab(model_a_g,un=TRUE)
+balance_a_g$Balance %&gt;%
+  as_tibble() %&gt;%
+  mutate(un_abs_mean_dif=abs(Diff.Un),
+         adj_abs_mean_dif=abs(Diff.Adj)) %&gt;%
+  summarize(mean(un_abs_mean_dif),
+            mean(adj_abs_mean_dif))</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##   `mean(un_abs_mean_dif)` `mean(adj_abs_mean_dif)`
+##                     &lt;dbl&gt;                    &lt;dbl&gt;
+## 1                    1.26                    0.118</code></pre>
+<pre class="r"><code># モデルB、最近傍
+balance_b_n &lt;- bal.tab(model_b_n,un=TRUE)
+balance_b_n$Balance %&gt;%
+  as_tibble() %&gt;%
+  mutate(un_abs_mean_dif=abs(Diff.Un),
+         adj_abs_mean_dif=abs(Diff.Adj)) %&gt;%
+  summarize(mean(un_abs_mean_dif),
+            mean(adj_abs_mean_dif))</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##   `mean(un_abs_mean_dif)` `mean(adj_abs_mean_dif)`
+##                     &lt;dbl&gt;                    &lt;dbl&gt;
+## 1                   0.723                    0.122</code></pre>
+<pre class="r"><code># モデルB、遺伝的
+balance_b_g &lt;- bal.tab(model_b_g,un=TRUE)
+balance_b_g$Balance %&gt;%
+  as_tibble() %&gt;%
+  mutate(un_abs_mean_dif=abs(Diff.Un),
+         adj_abs_mean_dif=abs(Diff.Adj)) %&gt;%
+  summarize(mean(un_abs_mean_dif),
+            mean(adj_abs_mean_dif))</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##   `mean(un_abs_mean_dif)` `mean(adj_abs_mean_dif)`
+##                     &lt;dbl&gt;                    &lt;dbl&gt;
+## 1                   0.723                   0.0456</code></pre>
+<pre class="r"><code># モデルC、最近傍
+balance_c_n &lt;- bal.tab(model_c_n,un=TRUE)
+balance_c_n$Balance %&gt;%
+  as_tibble() %&gt;%
+  mutate(un_abs_mean_dif=abs(Diff.Un),
+         adj_abs_mean_dif=abs(Diff.Adj)) %&gt;%
+  summarize(mean(un_abs_mean_dif),
+            mean(adj_abs_mean_dif))</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##   `mean(un_abs_mean_dif)` `mean(adj_abs_mean_dif)`
+##                     &lt;dbl&gt;                    &lt;dbl&gt;
+## 1                    1.79                    0.127</code></pre>
+<pre class="r"><code># モデルC、遺伝的
+balance_c_g &lt;- bal.tab(model_c_g,un=TRUE)
+balance_c_g$Balance %&gt;%
+  as_tibble() %&gt;%
+  mutate(un_abs_mean_dif=abs(Diff.Un),
+         adj_abs_mean_dif=abs(Diff.Adj)) %&gt;%
+  summarize(mean(un_abs_mean_dif),
+            mean(adj_abs_mean_dif))</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##   `mean(un_abs_mean_dif)` `mean(adj_abs_mean_dif)`
+##                     &lt;dbl&gt;                    &lt;dbl&gt;
+## 1                    1.79                   0.0441</code></pre>
+</div>
+<div id="教団施設の効果を確認" class="section level2">
+<h2>教団施設の効果を確認</h2>
+<p>　マッチングした市区町村を比べ、教団施設の有無によって井上氏の得票率変化量がどれだけ変わるかを見てみる。いずれのモデル、マッチング法でも0.07%ポイント前後で、有意な値となっている。</p>
+<pre class="r"><code># モデルA、最近傍
+data_a_n &lt;- get_matches(model_a_n) %&gt;%
+  as_tibble() %&gt;%
+  left_join(read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+              filter(year==2022) %&gt;%
+              dplyr::select(code,投票者数))</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`</code></pre>
+<pre class="r"><code>summary(lm(inoue_ratio_change ~ uc, data = data_a_n, weights = 投票者数))</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = inoue_ratio_change ~ uc, data = data_a_n, weights = 投票者数)
+## 
+## Weighted Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -452.28  -16.68   -0.52   19.20  221.42 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  0.10751    0.01098   9.788  &lt; 2e-16 ***
+## uc           0.06556    0.01388   4.724 2.98e-06 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 41.41 on 516 degrees of freedom
+## Multiple R-squared:  0.04146,    Adjusted R-squared:  0.0396 
+## F-statistic: 22.32 on 1 and 516 DF,  p-value: 2.985e-06</code></pre>
+<pre class="r"><code>confint(lm(inoue_ratio_change ~ uc, data = data_a_n, weights = 投票者数))</code></pre>
+<pre><code>##                  2.5 %     97.5 %
+## (Intercept) 0.08592909 0.12908308
+## uc          0.03829490 0.09282246</code></pre>
+<pre class="r"><code># モデルA、遺伝的
+data_a_g &lt;- get_matches(model_a_g) %&gt;%
+  as_tibble() %&gt;%
+  left_join(read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+              filter(year==2022) %&gt;%
+              dplyr::select(code,投票者数))</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`</code></pre>
+<pre class="r"><code>summary(lm(inoue_ratio_change ~ uc, data = data_a_g, weights = 投票者数))</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = inoue_ratio_change ~ uc, data = data_a_g, weights = 投票者数)
+## 
+## Weighted Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -452.28  -18.85   -2.13   20.28  221.42 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  0.11446    0.01086  10.535  &lt; 2e-16 ***
+## uc           0.05861    0.01412   4.151 3.88e-05 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 44.03 on 516 degrees of freedom
+## Multiple R-squared:  0.03231,    Adjusted R-squared:  0.03043 
+## F-statistic: 17.23 on 1 and 516 DF,  p-value: 3.88e-05</code></pre>
+<pre class="r"><code>confint(lm(inoue_ratio_change ~ uc, data = data_a_g, weights = 投票者数))</code></pre>
+<pre><code>##                  2.5 %     97.5 %
+## (Intercept) 0.09311206 0.13580107
+## uc          0.03086718 0.08634922</code></pre>
+<pre class="r"><code># モデルB、最近傍
+data_b_n &lt;- get_matches(model_b_n) %&gt;%
+  as_tibble() %&gt;%
+  left_join(read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+              filter(year==2022) %&gt;%
+              dplyr::select(code,投票者数))</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`</code></pre>
+<pre class="r"><code>summary(lm(inoue_ratio_change ~ uc, data = data_b_n, weights = 投票者数))</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = inoue_ratio_change ~ uc, data = data_b_n, weights = 投票者数)
+## 
+## Weighted Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -452.28  -13.89   -0.32   18.79  221.42 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  0.09898    0.01228   8.064 5.20e-15 ***
+## uc           0.07408    0.01498   4.946 1.03e-06 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 41.9 on 516 degrees of freedom
+## Multiple R-squared:  0.04526,    Adjusted R-squared:  0.04341 
+## F-statistic: 24.46 on 1 and 516 DF,  p-value: 1.026e-06</code></pre>
+<pre class="r"><code>confint(lm(inoue_ratio_change ~ uc, data = data_b_n, weights = 投票者数))</code></pre>
+<pre><code>##                  2.5 %    97.5 %
+## (Intercept) 0.07486919 0.1230994
+## uc          0.04465560 0.1035053</code></pre>
+<pre class="r"><code># モデルB、遺伝的
+data_b_g &lt;- get_matches(model_b_g) %&gt;%
+  as_tibble() %&gt;%
+  left_join(read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+              filter(year==2022) %&gt;%
+              dplyr::select(code,投票者数))</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`</code></pre>
+<pre class="r"><code>summary(lm(inoue_ratio_change ~ uc, data = data_b_g, weights = 投票者数))</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = inoue_ratio_change ~ uc, data = data_b_g, weights = 投票者数)
+## 
+## Weighted Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -452.28  -14.22   -1.10   19.77  221.42 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  0.10507    0.01133   9.277  &lt; 2e-16 ***
+## uc           0.06799    0.01418   4.795 2.14e-06 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 41.66 on 516 degrees of freedom
+## Multiple R-squared:  0.04265,    Adjusted R-squared:  0.04079 
+## F-statistic: 22.99 on 1 and 516 DF,  p-value: 2.136e-06</code></pre>
+<pre class="r"><code>confint(lm(inoue_ratio_change ~ uc, data = data_b_g, weights = 投票者数))</code></pre>
+<pre><code>##                  2.5 %     97.5 %
+## (Intercept) 0.08282280 0.12732505
+## uc          0.04013147 0.09585021</code></pre>
+<pre class="r"><code># モデルC、最近傍
+data_c_n &lt;- get_matches(model_c_n) %&gt;%
+  as_tibble() %&gt;%
+  left_join(read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+              filter(year==2022) %&gt;%
+              dplyr::select(code,投票者数))</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`</code></pre>
+<pre class="r"><code>summary(lm(inoue_ratio_change ~ uc, data = data_c_n, weights = 投票者数))</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = inoue_ratio_change ~ uc, data = data_c_n, weights = 投票者数)
+## 
+## Weighted Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -452.28  -14.49    0.10   18.12  221.42 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  0.10120    0.01202   8.420 3.74e-16 ***
+## uc           0.07186    0.01475   4.871 1.48e-06 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 41.75 on 516 degrees of freedom
+## Multiple R-squared:  0.04397,    Adjusted R-squared:  0.04212 
+## F-statistic: 23.73 on 1 and 516 DF,  p-value: 1.476e-06</code></pre>
+<pre class="r"><code>confint(lm(inoue_ratio_change ~ uc, data = data_c_n, weights = 投票者数))</code></pre>
+<pre><code>##                  2.5 %    97.5 %
+## (Intercept) 0.07758941 0.1248145
+## uc          0.04288199 0.1008436</code></pre>
+<pre class="r"><code># モデルC、遺伝的
+data_c_g &lt;- get_matches(model_c_g) %&gt;%
+  as_tibble() %&gt;%
+  left_join(read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+              filter(year==2022) %&gt;%
+              dplyr::select(code,投票者数))</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`</code></pre>
+<pre class="r"><code>summary(lm(inoue_ratio_change ~ uc, data = data_c_g, weights = 投票者数))</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = inoue_ratio_change ~ uc, data = data_c_g, weights = 投票者数)
+## 
+## Weighted Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -452.28  -16.70    0.09   20.28  221.42 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  0.09917    0.01198    8.28 1.06e-15 ***
+## uc           0.07389    0.01484    4.98 8.69e-07 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 42.76 on 516 degrees of freedom
+## Multiple R-squared:  0.04586,    Adjusted R-squared:  0.04401 
+## F-statistic:  24.8 on 1 and 516 DF,  p-value: 8.692e-07</code></pre>
+<pre class="r"><code>confint(lm(inoue_ratio_change ~ uc, data = data_c_g, weights = 投票者数))</code></pre>
+<pre><code>##                  2.5 %    97.5 %
+## (Intercept) 0.07564407 0.1227052
+## uc          0.04474013 0.1030401</code></pre>
+</div>
+<div id="良いマッチングができていることをグラフで確認"
+class="section level2">
+<h2>良いマッチングができていることをグラフで確認</h2>
+<p>　モデルAの遺伝的マッチングを例に、共変量のバランスがマッチングによって大幅に改善されていることを確認する。</p>
+<pre class="r"><code>love.plot(model_a_g,
+          threshold = 0.1,
+          abs = TRUE,
+          colors=c(&quot;black&quot;,&quot;black&quot;),
+          shapes = c(&quot;triangle filled&quot;, &quot;circle filled&quot;),
+          sample.names = c(&quot;マッチングなし&quot;,&quot;マッチングあり&quot;),
+          title=&quot;Figure1 共変量のバランス（モデルA、遺伝的）&quot;) +
+  theme(legend.position = c(0.8, 0.05),
+        axis.text.y = element_text(size = 6)) # 縦軸のテキストサイズを小さくする</code></pre>
+<pre><code>## Warning: Large mean differences detected; you may not be using standardized
+## mean differences for continuous variables.</code></pre>
+<pre><code>## Warning: A numeric `legend.position` argument in `theme()` was deprecated in ggplot2
+## 3.5.0.
+## ℹ Please use the `legend.position.inside` argument of `theme()` instead.
+## This warning is displayed once every 8 hours.
+## Call `lifecycle::last_lifecycle_warnings()` to see where this warning was
+## generated.</code></pre>
+<p><img src="%E3%80%8C%E9%81%B8%E6%8C%99%E7%A0%94%E7%A9%B6%E3%80%8D%E8%AB%96%E6%96%87%E5%86%8D%E6%8F%90%E5%87%BA_files/figure-html/unnamed-chunk-9-1.png" width="576" /></p>
+</div>
+<div id="井上氏の得票率変化量の違いをグラフで確認"
+class="section level2">
+<h2>井上氏の得票率変化量の違いをグラフで確認</h2>
+<p>　モデルAで遺伝的マッチングをした各市区町村のペアにおいて、教団施設の有無によって井上氏の得票率変化量がどれだけ違うのかをグラフで確認する。下へ行くほど投票者数の少ない市区町村になっている。</p>
+<pre class="r"><code>data_a_g %&gt;%
+  select(subclass, uc, inoue_ratio_change, 投票者数) %&gt;%
+  group_by(subclass) %&gt;%
+  mutate(mean_vote = mean(投票者数)) %&gt;%
+  select(subclass, uc, inoue_ratio_change, mean_vote) %&gt;%
+  pivot_wider(names_from = uc, values_from = inoue_ratio_change) %&gt;%
+  rename(平均投票者数 = mean_vote, 教団施設あり = `1`, 教団施設なし = `0`) %&gt;%
+  ggplot(aes(x = 教団施設なし, y = 教団施設あり, size = 平均投票者数)) +
+  geom_point(alpha = .1) +
+  geom_abline(slope = 1, intercept = 0) +
+  scale_size_continuous(breaks = c(10000, 50000, 100000),
+                        labels = c(&quot;10,000&quot;, &quot;50,000&quot;, &quot;100,000&quot;)) +
+  scale_x_continuous(breaks = seq(-0.3,0.7,by=0.2)) +
+  scale_y_continuous(breaks = seq(-1.5,2, by = 0.2)) +
+  theme(legend.title = element_text(size = 12),
+        legend.text = element_text(size = 10)) +
+  labs(title = &quot;マッチングした各自治体での得票率変化量&quot;,
+       subtitle = &quot;%ポイント。教団施設「あり」のほうが「なし」を上回るケースが多い&quot;)</code></pre>
+<p><img src="%E3%80%8C%E9%81%B8%E6%8C%99%E7%A0%94%E7%A9%B6%E3%80%8D%E8%AB%96%E6%96%87%E5%86%8D%E6%8F%90%E5%87%BA_files/figure-html/unnamed-chunk-10-1.png" width="576" /></p>
+</div>
+<div id="付録" class="section level2">
+<h2>付録</h2>
+<p>DID分析をする。</p>
+<pre class="r"><code>inoue2019_2022 &lt;- read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+  select(-自民_党_の得票) %&gt;% 
+  left_join(church)</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`</code></pre>
+<pre class="r"><code>did &lt;- inoue2019_2022 %&gt;%
+  mutate(inoue_ratio=井上得票*100/投票者数,
+         exp_inoue_ratio=(自民得票計-井上得票)*100/投票者数,
+         uc=ifelse(is.na(uc),0,1),
+         year_dummy=ifelse(year==2022,1,0)) %&gt;%
+  select(-有権者数,-井上得票,-自民得票計) %&gt;%
+  select(year,code,pref_city,inoue_ratio,everything()) %&gt;% 
+  left_join(read_csv(&quot;data/提出用/mun_data.csv&quot;) %&gt;%
+              select(-地域),
+            by=c(&quot;code&quot;=&quot;area_code&quot;)) %&gt;%
+  select_if(negate(anyNA)) </code></pre>
+<pre><code>## Rows: 1917 Columns: 263
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr   (2): area_code, 地域
+## dbl (261): A2101_住民基本台帳人口（日本人）, A210101_住民基本台帳人口（日本人）（男）, A210102_住民基本台帳人口（日...
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<pre class="r"><code>controls &lt;- colnames(did)[9:128] %&gt;%
+  sapply(function(x) {
+    x &lt;- sub(&quot;^&quot;, &quot;`&quot;, x)
+    sub(&quot;$&quot;, &quot;`&quot;, x)
+    })
+
+# DID分析
+
+lm(as.formula(paste(&quot;inoue_ratio ~ year_dummy + uc + year_dummy:uc + exp_inoue_ratio +&quot;,
+                    paste(controls, collapse = &quot; + &quot;))),
+   data = did, weights = 投票者数) %&gt;% 
+  tidy() %&gt;% 
+  mutate(across(estimate:statistic, ~format(., scientific = FALSE, digits = 3))) %&gt;%
+  mutate(across(estimate:p.value, ~format(., scientific = TRUE, digits = 3))) %&gt;% 
+  gt()</code></pre>
+<div id="mlicwyeair" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#mlicwyeair table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#mlicwyeair thead, #mlicwyeair tbody, #mlicwyeair tfoot, #mlicwyeair tr, #mlicwyeair td, #mlicwyeair th {
+  border-style: none;
+}
+
+#mlicwyeair p {
+  margin: 0;
+  padding: 0;
+}
+
+#mlicwyeair .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#mlicwyeair .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#mlicwyeair .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#mlicwyeair .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#mlicwyeair .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#mlicwyeair .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#mlicwyeair .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#mlicwyeair .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#mlicwyeair .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#mlicwyeair .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#mlicwyeair .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#mlicwyeair .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#mlicwyeair .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#mlicwyeair .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#mlicwyeair .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mlicwyeair .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#mlicwyeair .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#mlicwyeair .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#mlicwyeair .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mlicwyeair .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#mlicwyeair .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mlicwyeair .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#mlicwyeair .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mlicwyeair .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#mlicwyeair .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mlicwyeair .gt_left {
+  text-align: left;
+}
+
+#mlicwyeair .gt_center {
+  text-align: center;
+}
+
+#mlicwyeair .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#mlicwyeair .gt_font_normal {
+  font-weight: normal;
+}
+
+#mlicwyeair .gt_font_bold {
+  font-weight: bold;
+}
+
+#mlicwyeair .gt_font_italic {
+  font-style: italic;
+}
+
+#mlicwyeair .gt_super {
+  font-size: 65%;
+}
+
+#mlicwyeair .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#mlicwyeair .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#mlicwyeair .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#mlicwyeair .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#mlicwyeair .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#mlicwyeair .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#mlicwyeair .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="term">term</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="estimate">estimate</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="std.error">std.error</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="statistic">statistic</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="p.value">p.value</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="term" class="gt_row gt_left">(Intercept)</td>
+<td headers="estimate" class="gt_row gt_left"> 0.46508188</td>
+<td headers="std.error" class="gt_row gt_left">0.08512869</td>
+<td headers="statistic" class="gt_row gt_left"> 5.4633</td>
+<td headers="p.value" class="gt_row gt_left">4.98e-08</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">year_dummy</td>
+<td headers="estimate" class="gt_row gt_left"> 0.09415377</td>
+<td headers="std.error" class="gt_row gt_left">0.02647046</td>
+<td headers="statistic" class="gt_row gt_left"> 3.5569</td>
+<td headers="p.value" class="gt_row gt_left">3.80e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">uc</td>
+<td headers="estimate" class="gt_row gt_left"> 0.12601879</td>
+<td headers="std.error" class="gt_row gt_left">0.03626945</td>
+<td headers="statistic" class="gt_row gt_left"> 3.4745</td>
+<td headers="p.value" class="gt_row gt_left">5.18e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">exp_inoue_ratio</td>
+<td headers="estimate" class="gt_row gt_left">-0.00505216</td>
+<td headers="std.error" class="gt_row gt_left">0.00218096</td>
+<td headers="statistic" class="gt_row gt_left">-2.3165</td>
+<td headers="p.value" class="gt_row gt_left">2.06e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A2101_住民基本台帳人口（日本人）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00001867</td>
+<td headers="std.error" class="gt_row gt_left">0.00001630</td>
+<td headers="statistic" class="gt_row gt_left">-1.1452</td>
+<td headers="p.value" class="gt_row gt_left">2.52e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A210101_住民基本台帳人口（日本人）（男）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00003434</td>
+<td headers="std.error" class="gt_row gt_left">0.00002978</td>
+<td headers="statistic" class="gt_row gt_left"> 1.1530</td>
+<td headers="p.value" class="gt_row gt_left">2.49e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A210102_住民基本台帳人口（日本人）（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A2201_住民基本台帳人口（外国人）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00005219</td>
+<td headers="std.error" class="gt_row gt_left">0.00001066</td>
+<td headers="statistic" class="gt_row gt_left">-4.8950</td>
+<td headers="p.value" class="gt_row gt_left">1.02e-06</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A2301_住民基本台帳人口（総数）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">A4101_出生数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00063645</td>
+<td headers="std.error" class="gt_row gt_left">0.00016397</td>
+<td headers="statistic" class="gt_row gt_left"> 3.8815</td>
+<td headers="p.value" class="gt_row gt_left">1.06e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">A4200_死亡数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00033109</td>
+<td headers="std.error" class="gt_row gt_left">0.00012519</td>
+<td headers="statistic" class="gt_row gt_left"> 2.6446</td>
+<td headers="p.value" class="gt_row gt_left">8.21e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A5101_転入者数（日本人移動者）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00023901</td>
+<td headers="std.error" class="gt_row gt_left">0.00006712</td>
+<td headers="statistic" class="gt_row gt_left">-3.5611</td>
+<td headers="p.value" class="gt_row gt_left">3.74e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A5102_転出者数（日本人移動者）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00005526</td>
+<td headers="std.error" class="gt_row gt_left">0.00004165</td>
+<td headers="statistic" class="gt_row gt_left">-1.3268</td>
+<td headers="p.value" class="gt_row gt_left">1.85e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">A5103_転入者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00019497</td>
+<td headers="std.error" class="gt_row gt_left">0.00006014</td>
+<td headers="statistic" class="gt_row gt_left"> 3.2418</td>
+<td headers="p.value" class="gt_row gt_left">1.20e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">A5104_転出者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00005962</td>
+<td headers="std.error" class="gt_row gt_left">0.00003059</td>
+<td headers="statistic" class="gt_row gt_left"> 1.9491</td>
+<td headers="p.value" class="gt_row gt_left">5.14e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`A7103_住民基本台帳世帯数（日本人）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00000471</td>
+<td headers="std.error" class="gt_row gt_left">0.00000659</td>
+<td headers="statistic" class="gt_row gt_left">-0.7155</td>
+<td headers="p.value" class="gt_row gt_left">4.74e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">A9101_婚姻件数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00027608</td>
+<td headers="std.error" class="gt_row gt_left">0.00019644</td>
+<td headers="statistic" class="gt_row gt_left"> 1.4055</td>
+<td headers="p.value" class="gt_row gt_left">1.60e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">A9201_離婚件数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00111297</td>
+<td headers="std.error" class="gt_row gt_left">0.00048200</td>
+<td headers="statistic" class="gt_row gt_left">-2.3091</td>
+<td headers="p.value" class="gt_row gt_left">2.10e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`B1101_総面積（北方地域及び竹島を除く）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00005367</td>
+<td headers="std.error" class="gt_row gt_left">0.00008773</td>
+<td headers="statistic" class="gt_row gt_left">-0.6117</td>
+<td headers="p.value" class="gt_row gt_left">5.41e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`B1102_総面積（北方地域及び竹島を含む）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000552</td>
+<td headers="std.error" class="gt_row gt_left">0.00007487</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0737</td>
+<td headers="p.value" class="gt_row gt_left">9.41e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">B1103_可住地面積</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00004181</td>
+<td headers="std.error" class="gt_row gt_left">0.00004475</td>
+<td headers="statistic" class="gt_row gt_left"> 0.9342</td>
+<td headers="p.value" class="gt_row gt_left">3.50e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">B1104_主要湖沼面積</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00002539</td>
+<td headers="std.error" class="gt_row gt_left">0.00004524</td>
+<td headers="statistic" class="gt_row gt_left"> 0.5612</td>
+<td headers="p.value" class="gt_row gt_left">5.75e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">B1105_林野面積</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00003784</td>
+<td headers="std.error" class="gt_row gt_left">0.00004916</td>
+<td headers="statistic" class="gt_row gt_left"> 0.7698</td>
+<td headers="p.value" class="gt_row gt_left">4.41e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">B1106_森林面積</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000909</td>
+<td headers="std.error" class="gt_row gt_left">0.00002738</td>
+<td headers="statistic" class="gt_row gt_left"> 0.3321</td>
+<td headers="p.value" class="gt_row gt_left">7.40e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">B1107_森林以外の草生地面積</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`C2109_事業所数（国・地方公共団体）（経済センサス‐基礎調査結果）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00125924</td>
+<td headers="std.error" class="gt_row gt_left">0.00047212</td>
+<td headers="statistic" class="gt_row gt_left"> 2.6672</td>
+<td headers="p.value" class="gt_row gt_left">7.68e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`C310201_農家数（販売農家）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00001300</td>
+<td headers="std.error" class="gt_row gt_left">0.00004117</td>
+<td headers="statistic" class="gt_row gt_left"> 0.3157</td>
+<td headers="p.value" class="gt_row gt_left">7.52e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`C310202_農家数（自給的農家）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000901</td>
+<td headers="std.error" class="gt_row gt_left">0.00003500</td>
+<td headers="statistic" class="gt_row gt_left"> 0.2575</td>
+<td headers="p.value" class="gt_row gt_left">7.97e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">C3403_製造業事業所数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00004077</td>
+<td headers="std.error" class="gt_row gt_left">0.00014897</td>
+<td headers="statistic" class="gt_row gt_left">-0.2737</td>
+<td headers="p.value" class="gt_row gt_left">7.84e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">C3404_製造業従業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000127</td>
+<td headers="std.error" class="gt_row gt_left">0.00000413</td>
+<td headers="statistic" class="gt_row gt_left"> 0.3070</td>
+<td headers="p.value" class="gt_row gt_left">7.59e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E1101_幼稚園数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00977053</td>
+<td headers="std.error" class="gt_row gt_left">0.00301707</td>
+<td headers="statistic" class="gt_row gt_left"> 3.2384</td>
+<td headers="p.value" class="gt_row gt_left">1.21e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E1501_幼稚園在園者数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00012426</td>
+<td headers="std.error" class="gt_row gt_left">0.00002916</td>
+<td headers="statistic" class="gt_row gt_left">-4.2619</td>
+<td headers="p.value" class="gt_row gt_left">2.08e-05</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E2101_小学校数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00082431</td>
+<td headers="std.error" class="gt_row gt_left">0.00531792</td>
+<td headers="statistic" class="gt_row gt_left"> 0.1550</td>
+<td headers="p.value" class="gt_row gt_left">8.77e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E2401_小学校教員数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00014228</td>
+<td headers="std.error" class="gt_row gt_left">0.00047999</td>
+<td headers="statistic" class="gt_row gt_left"> 0.2964</td>
+<td headers="p.value" class="gt_row gt_left">7.67e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E2501_小学校児童数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000304</td>
+<td headers="std.error" class="gt_row gt_left">0.00003168</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0960</td>
+<td headers="p.value" class="gt_row gt_left">9.24e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3101_中学校数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.02079237</td>
+<td headers="std.error" class="gt_row gt_left">0.00780731</td>
+<td headers="statistic" class="gt_row gt_left"> 2.6632</td>
+<td headers="p.value" class="gt_row gt_left">7.77e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3401_中学校教員数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00254183</td>
+<td headers="std.error" class="gt_row gt_left">0.00073229</td>
+<td headers="statistic" class="gt_row gt_left">-3.4711</td>
+<td headers="p.value" class="gt_row gt_left">5.24e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3501_中学校生徒数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00004987</td>
+<td headers="std.error" class="gt_row gt_left">0.00004306</td>
+<td headers="statistic" class="gt_row gt_left"> 1.1582</td>
+<td headers="p.value" class="gt_row gt_left">2.47e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3901_義務教育学校数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.16278597</td>
+<td headers="std.error" class="gt_row gt_left">0.13276421</td>
+<td headers="statistic" class="gt_row gt_left"> 1.2261</td>
+<td headers="p.value" class="gt_row gt_left">2.20e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3902_義務教育学校前期課程学級数</td>
+<td headers="estimate" class="gt_row gt_left">-0.03099479</td>
+<td headers="std.error" class="gt_row gt_left">0.03663169</td>
+<td headers="statistic" class="gt_row gt_left">-0.8461</td>
+<td headers="p.value" class="gt_row gt_left">3.98e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3903_義務教育学校後期課程学級数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.01209698</td>
+<td headers="std.error" class="gt_row gt_left">0.05515083</td>
+<td headers="statistic" class="gt_row gt_left"> 0.2193</td>
+<td headers="p.value" class="gt_row gt_left">8.26e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3904_義務教育学校教員数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00046792</td>
+<td headers="std.error" class="gt_row gt_left">0.00709723</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0659</td>
+<td headers="p.value" class="gt_row gt_left">9.47e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3905_義務教育学校前期課程児童数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00067233</td>
+<td headers="std.error" class="gt_row gt_left">0.00101395</td>
+<td headers="statistic" class="gt_row gt_left"> 0.6631</td>
+<td headers="p.value" class="gt_row gt_left">5.07e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E3906_義務教育学校後期課程生徒数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00019045</td>
+<td headers="std.error" class="gt_row gt_left">0.00129637</td>
+<td headers="statistic" class="gt_row gt_left">-0.1469</td>
+<td headers="p.value" class="gt_row gt_left">8.83e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E4101_高等学校数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00848925</td>
+<td headers="std.error" class="gt_row gt_left">0.01144459</td>
+<td headers="statistic" class="gt_row gt_left"> 0.7418</td>
+<td headers="p.value" class="gt_row gt_left">4.58e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">E4501_高等学校生徒数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00001358</td>
+<td headers="std.error" class="gt_row gt_left">0.00001313</td>
+<td headers="statistic" class="gt_row gt_left">-1.0345</td>
+<td headers="p.value" class="gt_row gt_left">3.01e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F1101_労働力人口</td>
+<td headers="estimate" class="gt_row gt_left">-0.00107849</td>
+<td headers="std.error" class="gt_row gt_left">0.00018993</td>
+<td headers="statistic" class="gt_row gt_left">-5.6783</td>
+<td headers="p.value" class="gt_row gt_left">1.47e-08</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110101_労働力人口（男）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00156571</td>
+<td headers="std.error" class="gt_row gt_left">0.00028451</td>
+<td headers="statistic" class="gt_row gt_left"> 5.5032</td>
+<td headers="p.value" class="gt_row gt_left">3.98e-08</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110102_労働力人口（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F1102_就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00146232</td>
+<td headers="std.error" class="gt_row gt_left">0.00024622</td>
+<td headers="statistic" class="gt_row gt_left"> 5.9390</td>
+<td headers="p.value" class="gt_row gt_left">3.13e-09</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110201_就業者数（男）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00168460</td>
+<td headers="std.error" class="gt_row gt_left">0.00034773</td>
+<td headers="statistic" class="gt_row gt_left">-4.8445</td>
+<td headers="p.value" class="gt_row gt_left">1.32e-06</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110202_就業者数（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F1103_就業者数・主に仕事`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00028570</td>
+<td headers="std.error" class="gt_row gt_left">0.00010924</td>
+<td headers="statistic" class="gt_row gt_left">-2.6154</td>
+<td headers="p.value" class="gt_row gt_left">8.95e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F1104_就業者数・家事のほか仕事`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00024138</td>
+<td headers="std.error" class="gt_row gt_left">0.00011271</td>
+<td headers="statistic" class="gt_row gt_left">-2.1417</td>
+<td headers="p.value" class="gt_row gt_left">3.23e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F1105_就業者数・通学のかたわら仕事`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00033173</td>
+<td headers="std.error" class="gt_row gt_left">0.00012629</td>
+<td headers="statistic" class="gt_row gt_left">-2.6267</td>
+<td headers="p.value" class="gt_row gt_left">8.66e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F1106_就業者数・休業者`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F1107_完全失業者数</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110701_完全失業者数（男）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110702_完全失業者数（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F1108_非労働力人口</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00003340</td>
+<td headers="std.error" class="gt_row gt_left">0.00002432</td>
+<td headers="statistic" class="gt_row gt_left"> 1.3731</td>
+<td headers="p.value" class="gt_row gt_left">1.70e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110801_非労働力人口（男）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00011066</td>
+<td headers="std.error" class="gt_row gt_left">0.00004228</td>
+<td headers="statistic" class="gt_row gt_left">-2.6173</td>
+<td headers="p.value" class="gt_row gt_left">8.90e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F110802_非労働力人口（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F1109_非労働力人口・家事`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00000242</td>
+<td headers="std.error" class="gt_row gt_left">0.00002626</td>
+<td headers="statistic" class="gt_row gt_left">-0.0921</td>
+<td headers="p.value" class="gt_row gt_left">9.27e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F1110_非労働力人口・通学`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000118</td>
+<td headers="std.error" class="gt_row gt_left">0.00002689</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0438</td>
+<td headers="p.value" class="gt_row gt_left">9.65e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F1111_非労働力人口・その他`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F2116_就業者数（65歳以上）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00000158</td>
+<td headers="std.error" class="gt_row gt_left">0.00002382</td>
+<td headers="statistic" class="gt_row gt_left">-0.0661</td>
+<td headers="p.value" class="gt_row gt_left">9.47e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2201_第1次産業就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00016244</td>
+<td headers="std.error" class="gt_row gt_left">0.00007688</td>
+<td headers="statistic" class="gt_row gt_left"> 2.1130</td>
+<td headers="p.value" class="gt_row gt_left">3.47e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2211_第2次産業就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00006170</td>
+<td headers="std.error" class="gt_row gt_left">0.00006591</td>
+<td headers="statistic" class="gt_row gt_left"> 0.9361</td>
+<td headers="p.value" class="gt_row gt_left">3.49e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2221_第3次産業就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00008615</td>
+<td headers="std.error" class="gt_row gt_left">0.00006788</td>
+<td headers="statistic" class="gt_row gt_left"> 1.2691</td>
+<td headers="p.value" class="gt_row gt_left">2.04e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F2401_雇用者数（国勢調査結果）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00020368</td>
+<td headers="std.error" class="gt_row gt_left">0.00011095</td>
+<td headers="statistic" class="gt_row gt_left">-1.8358</td>
+<td headers="p.value" class="gt_row gt_left">6.65e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2402_役員数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00012263</td>
+<td headers="std.error" class="gt_row gt_left">0.00011351</td>
+<td headers="statistic" class="gt_row gt_left">-1.0804</td>
+<td headers="p.value" class="gt_row gt_left">2.80e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2403_雇人のある業主数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00043535</td>
+<td headers="std.error" class="gt_row gt_left">0.00016053</td>
+<td headers="statistic" class="gt_row gt_left">-2.7119</td>
+<td headers="p.value" class="gt_row gt_left">6.72e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2404_雇人のない業主数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00035804</td>
+<td headers="std.error" class="gt_row gt_left">0.00010693</td>
+<td headers="statistic" class="gt_row gt_left">-3.3483</td>
+<td headers="p.value" class="gt_row gt_left">8.21e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F2405_家族従業者数（国勢調査結果）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00032485</td>
+<td headers="std.error" class="gt_row gt_left">0.00014614</td>
+<td headers="statistic" class="gt_row gt_left">-2.2229</td>
+<td headers="p.value" class="gt_row gt_left">2.63e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2406_自営業主及び家族従業者数</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F2409_雇用者数（正規の職員・従業員）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00009131</td>
+<td headers="std.error" class="gt_row gt_left">0.00002319</td>
+<td headers="statistic" class="gt_row gt_left">-3.9369</td>
+<td headers="p.value" class="gt_row gt_left">8.41e-05</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F2410_雇用者数（労働者派遣事業所の派遣社員）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00017677</td>
+<td headers="std.error" class="gt_row gt_left">0.00004897</td>
+<td headers="statistic" class="gt_row gt_left"> 3.6101</td>
+<td headers="p.value" class="gt_row gt_left">3.10e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F2411_雇用者数（パート・アルバイト・その他）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2701_自市区町村で従業している就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00014328</td>
+<td headers="std.error" class="gt_row gt_left">0.00015351</td>
+<td headers="statistic" class="gt_row gt_left"> 0.9333</td>
+<td headers="p.value" class="gt_row gt_left">3.51e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270101_自市区町村で従業している就業者数（男）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000447</td>
+<td headers="std.error" class="gt_row gt_left">0.00025621</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0175</td>
+<td headers="p.value" class="gt_row gt_left">9.86e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270102_自市区町村で従業している就業者数（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2702_県内他市区町村で従業している就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00010134</td>
+<td headers="std.error" class="gt_row gt_left">0.00015412</td>
+<td headers="statistic" class="gt_row gt_left"> 0.6575</td>
+<td headers="p.value" class="gt_row gt_left">5.11e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270201_県内他市区町村で従業している就業者数（男）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00006622</td>
+<td headers="std.error" class="gt_row gt_left">0.00025843</td>
+<td headers="statistic" class="gt_row gt_left"> 0.2563</td>
+<td headers="p.value" class="gt_row gt_left">7.98e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270202_県内他市区町村で従業している就業者数（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2703_他県で従業している就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00013440</td>
+<td headers="std.error" class="gt_row gt_left">0.00015670</td>
+<td headers="statistic" class="gt_row gt_left"> 0.8577</td>
+<td headers="p.value" class="gt_row gt_left">3.91e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270301_他県で従業している就業者数（男）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000671</td>
+<td headers="std.error" class="gt_row gt_left">0.00026276</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0255</td>
+<td headers="p.value" class="gt_row gt_left">9.80e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270302_他県で従業している就業者数（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2705_他市区町村への通勤者数</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270501_他市区町村への通勤者数（男）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`F270502_他市区町村への通勤者数（女）`</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2801_従業地による就業者数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000300</td>
+<td headers="std.error" class="gt_row gt_left">0.00000126</td>
+<td headers="statistic" class="gt_row gt_left"> 2.3724</td>
+<td headers="p.value" class="gt_row gt_left">1.77e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2802_他県に常住している就業者数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00000902</td>
+<td headers="std.error" class="gt_row gt_left">0.00000237</td>
+<td headers="statistic" class="gt_row gt_left">-3.8082</td>
+<td headers="p.value" class="gt_row gt_left">1.42e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">F2803_他市区町村からの通勤者数</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">G1201_公民館数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00064366</td>
+<td headers="std.error" class="gt_row gt_left">0.00079625</td>
+<td headers="statistic" class="gt_row gt_left">-0.8084</td>
+<td headers="p.value" class="gt_row gt_left">4.19e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">G1401_図書館数</td>
+<td headers="estimate" class="gt_row gt_left">-0.01783976</td>
+<td headers="std.error" class="gt_row gt_left">0.00490428</td>
+<td headers="statistic" class="gt_row gt_left">-3.6376</td>
+<td headers="p.value" class="gt_row gt_left">2.79e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">H7701_テレビ放送受信契約数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00000127</td>
+<td headers="std.error" class="gt_row gt_left">0.00000497</td>
+<td headers="statistic" class="gt_row gt_left">-0.2558</td>
+<td headers="p.value" class="gt_row gt_left">7.98e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">H770101_衛星放送受信契約数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000248</td>
+<td headers="std.error" class="gt_row gt_left">0.00000408</td>
+<td headers="statistic" class="gt_row gt_left"> 0.6076</td>
+<td headers="p.value" class="gt_row gt_left">5.44e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I5101_病院数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.02390061</td>
+<td headers="std.error" class="gt_row gt_left">0.00606458</td>
+<td headers="statistic" class="gt_row gt_left"> 3.9410</td>
+<td headers="p.value" class="gt_row gt_left">8.26e-05</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I510110_精神科病院数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00924477</td>
+<td headers="std.error" class="gt_row gt_left">0.01320591</td>
+<td headers="statistic" class="gt_row gt_left"> 0.7000</td>
+<td headers="p.value" class="gt_row gt_left">4.84e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I510120_一般病院数</td>
+<td headers="estimate" class="gt_row gt_left">         NA</td>
+<td headers="std.error" class="gt_row gt_left">        NA</td>
+<td headers="statistic" class="gt_row gt_left">     NA</td>
+<td headers="p.value" class="gt_row gt_left">      NA</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I510150_療養病床を有する病院数</td>
+<td headers="estimate" class="gt_row gt_left">-0.02833900</td>
+<td headers="std.error" class="gt_row gt_left">0.00732401</td>
+<td headers="statistic" class="gt_row gt_left">-3.8693</td>
+<td headers="p.value" class="gt_row gt_left">1.11e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I5102_一般診療所数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00046843</td>
+<td headers="std.error" class="gt_row gt_left">0.00062193</td>
+<td headers="statistic" class="gt_row gt_left">-0.7532</td>
+<td headers="p.value" class="gt_row gt_left">4.51e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I510201_有床一般診療所数</td>
+<td headers="estimate" class="gt_row gt_left">-0.01980398</td>
+<td headers="std.error" class="gt_row gt_left">0.00900608</td>
+<td headers="statistic" class="gt_row gt_left">-2.1990</td>
+<td headers="p.value" class="gt_row gt_left">2.79e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I5103_歯科診療所数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00191198</td>
+<td headers="std.error" class="gt_row gt_left">0.00094580</td>
+<td headers="statistic" class="gt_row gt_left"> 2.0216</td>
+<td headers="p.value" class="gt_row gt_left">4.33e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I5211_病院病床数</td>
+<td headers="estimate" class="gt_row gt_left">-0.00006467</td>
+<td headers="std.error" class="gt_row gt_left">0.00002349</td>
+<td headers="statistic" class="gt_row gt_left">-2.7534</td>
+<td headers="p.value" class="gt_row gt_left">5.93e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">I5212_一般診療所病床数</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00078916</td>
+<td headers="std.error" class="gt_row gt_left">0.00057799</td>
+<td headers="statistic" class="gt_row gt_left"> 1.3654</td>
+<td headers="p.value" class="gt_row gt_left">1.72e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`I5511_介護老人保健施設数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.01564718</td>
+<td headers="std.error" class="gt_row gt_left">0.01241654</td>
+<td headers="statistic" class="gt_row gt_left">-1.2602</td>
+<td headers="p.value" class="gt_row gt_left">2.08e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`I5512_介護老人保健施設定員数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00000395</td>
+<td headers="std.error" class="gt_row gt_left">0.00014904</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0265</td>
+<td headers="p.value" class="gt_row gt_left">9.79e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J2221_保護施設数（基本票）（医療保護施設を除く）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.02398622</td>
+<td headers="std.error" class="gt_row gt_left">0.02083427</td>
+<td headers="statistic" class="gt_row gt_left">-1.1513</td>
+<td headers="p.value" class="gt_row gt_left">2.50e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230127_介護老人福祉施設数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.02612838</td>
+<td headers="std.error" class="gt_row gt_left">0.00720151</td>
+<td headers="statistic" class="gt_row gt_left">-3.6282</td>
+<td headers="p.value" class="gt_row gt_left">2.89e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230128_介護老人福祉施設定員数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00033874</td>
+<td headers="std.error" class="gt_row gt_left">0.00010156</td>
+<td headers="statistic" class="gt_row gt_left"> 3.3353</td>
+<td headers="p.value" class="gt_row gt_left">8.60e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J2304_老人福祉施設数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00412936</td>
+<td headers="std.error" class="gt_row gt_left">0.00428149</td>
+<td headers="statistic" class="gt_row gt_left">-0.9645</td>
+<td headers="p.value" class="gt_row gt_left">3.35e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230411_養護老人ホーム数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00927873</td>
+<td headers="std.error" class="gt_row gt_left">0.02846338</td>
+<td headers="statistic" class="gt_row gt_left">-0.3260</td>
+<td headers="p.value" class="gt_row gt_left">7.44e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230412_養護老人ホーム定員数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00055414</td>
+<td headers="std.error" class="gt_row gt_left">0.00034365</td>
+<td headers="statistic" class="gt_row gt_left">-1.6125</td>
+<td headers="p.value" class="gt_row gt_left">1.07e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230421_有料老人ホーム数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00410053</td>
+<td headers="std.error" class="gt_row gt_left">0.00149486</td>
+<td headers="statistic" class="gt_row gt_left">-2.7431</td>
+<td headers="p.value" class="gt_row gt_left">6.12e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230422_有料老人ホーム定員数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00014063</td>
+<td headers="std.error" class="gt_row gt_left">0.00004567</td>
+<td headers="statistic" class="gt_row gt_left"> 3.0792</td>
+<td headers="p.value" class="gt_row gt_left">2.09e-03</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230431_軽費老人ホーム数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00087507</td>
+<td headers="std.error" class="gt_row gt_left">0.01214587</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0720</td>
+<td headers="p.value" class="gt_row gt_left">9.43e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J230432_軽費老人ホーム定員数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00008059</td>
+<td headers="std.error" class="gt_row gt_left">0.00023057</td>
+<td headers="statistic" class="gt_row gt_left">-0.3495</td>
+<td headers="p.value" class="gt_row gt_left">7.27e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J250204_児童福祉施設等数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00151380</td>
+<td headers="std.error" class="gt_row gt_left">0.00087670</td>
+<td headers="statistic" class="gt_row gt_left"> 1.7267</td>
+<td headers="p.value" class="gt_row gt_left">8.43e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J250302_保育所等数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.00313912</td>
+<td headers="std.error" class="gt_row gt_left">0.00219546</td>
+<td headers="statistic" class="gt_row gt_left">-1.4298</td>
+<td headers="p.value" class="gt_row gt_left">1.53e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J250303_公営保育所等数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.01029339</td>
+<td headers="std.error" class="gt_row gt_left">0.00268479</td>
+<td headers="statistic" class="gt_row gt_left">-3.8340</td>
+<td headers="p.value" class="gt_row gt_left">1.28e-04</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J2804_母子・父子福祉施設数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.08989745</td>
+<td headers="std.error" class="gt_row gt_left">0.04154522</td>
+<td headers="statistic" class="gt_row gt_left">-2.1638</td>
+<td headers="p.value" class="gt_row gt_left">3.05e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J2905_障害者支援施設等数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left"> 0.00008769</td>
+<td headers="std.error" class="gt_row gt_left">0.00334738</td>
+<td headers="statistic" class="gt_row gt_left"> 0.0262</td>
+<td headers="p.value" class="gt_row gt_left">9.79e-01</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">`J2906_婦人保護施設数（基本票）`</td>
+<td headers="estimate" class="gt_row gt_left">-0.10429151</td>
+<td headers="std.error" class="gt_row gt_left">0.05009789</td>
+<td headers="statistic" class="gt_row gt_left">-2.0818</td>
+<td headers="p.value" class="gt_row gt_left">3.74e-02</td></tr>
+    <tr><td headers="term" class="gt_row gt_left">year_dummy:uc</td>
+<td headers="estimate" class="gt_row gt_left"> 0.07664716</td>
+<td headers="std.error" class="gt_row gt_left">0.04008132</td>
+<td headers="statistic" class="gt_row gt_left"> 1.9123</td>
+<td headers="p.value" class="gt_row gt_left">5.59e-02</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+<pre class="r"><code>inoue2013 &lt;- read_csv(&quot;data/提出用/福元データ23.csv&quot;) %&gt;%
+  mutate(年=(as.double(as.double(str_sub(選挙回,-2,-1)))-19)*3+2001) %&gt;%
+  mutate(名前=str_replace(名前,&quot; &quot;,&quot;&quot;)) %&gt;%
+  filter(名前==&quot;井上義行&quot;) %&gt;%
+  rename(pref=都道府県名,
+         city=市区町村名,
+         井上得票=市区町村別得票数,
+         party=&quot;党派・会派等&quot;,
+         name=名前,
+         year=年,
+         code=JISコード) %&gt;%
+  select(year,
+         code,
+         pref,
+         city,
+         name,
+         井上得票,
+         投票者数,
+         有権者数) %&gt;% 
+  mutate(code=as.character(ifelse(str_length(code)==4,str_c(0,code),code))) %&gt;% 
+  mutate(city=str_replace(city,&quot;ケ&quot;,&quot;ヶ&quot;))</code></pre>
+<pre><code>## Rows: 307314 Columns: 17
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr  (6): 選挙回, 都道府県名, 市区町村名, 名前, 党派・会派等, 現新
+## dbl (10): 都道府県コード, JISコード, 有権者数, 投票者数, 有効投票数, 定数, 候補者数, 市区町村別得票数, 得票総数, 年齢...
+## lgl  (1): 順位
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<pre class="r"><code>did_chart &lt;- bind_rows(inoue2013, read_csv(&quot;data/提出用/votes.csv&quot;) %&gt;%
+                         select(-自民_党_の得票)) %&gt;%
+  left_join(church) %&gt;%
+  group_by(year,uc) %&gt;%
+  summarize(井上得票=sum(井上得票),
+            投票者数=sum(投票者数)) %&gt;%
+  mutate(inoue_ratio=井上得票*100/投票者数) %&gt;%
+  mutate(uc=ifelse(is.na(uc), &quot;なし&quot;, &quot;あり&quot;)) %&gt;%
+  ggplot(aes(year,inoue_ratio,color=uc))+geom_line() +
+  scale_x_continuous(breaks = c(2013, 2019, 2022)) +
+  scale_color_manual(name = &quot;教団施設&quot;,
+                     values = c(&quot;あり&quot; = &quot;red&quot;, &quot;なし&quot; = &quot;blue&quot;)) +
+    labs(title=&quot;3回の参院選における井上氏の得票率の推移&quot;,
+         x=&quot;年&quot;,
+         y=&quot;得票率（％）&quot;)</code></pre>
+<pre><code>## Rows: 3792 Columns: 8
+## ── Column specification ────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr (2): code, pref_city
+## dbl (6): year, 有権者数, 投票者数, 井上得票, 自民得票計, 自民_党_の得票
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+## Joining with `by = join_by(code)`
+## `summarise()` has grouped output by &#39;year&#39;. You can override using the `.groups` argument.</code></pre>
+<pre class="r"><code># Define the points and the slope for the new line
+x1 &lt;- 2019
+y1 &lt;- 0.19
+slope &lt;- 0.03266667
+x2 &lt;- 2022
+y2 &lt;- y1 + slope * (x2 - x1)
+
+# Add the line segment to the plot
+did_chart + geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2),
+                         color = &quot;black&quot;, linetype = &quot;dotted&quot;)</code></pre>
+<pre><code>## Warning in geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2), color = &quot;black&quot;, : All aesthetics have length 1, but the data has 6 rows.
+## ℹ Did you mean to use `annotate()`?</code></pre>
+<p><img src="%E3%80%8C%E9%81%B8%E6%8C%99%E7%A0%94%E7%A9%B6%E3%80%8D%E8%AB%96%E6%96%87%E5%86%8D%E6%8F%90%E5%87%BA_files/figure-html/appendix-1.png" width="672" /></p>
+<p>以上。</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
