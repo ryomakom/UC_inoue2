@@ -4,7 +4,6 @@ author: "朝日新聞デジタル企画報道部　小宮山亮磨 @ryomakom"
 date: "2024/2/10"
 output:
   html_document:
-    df_print: paged
 ---
 
 ## 旧統一教会が参院選に与えた影響を推定した論文について
