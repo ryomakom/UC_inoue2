@@ -1,3 +1,12 @@
+---
+title: "再エネ出力制御の集計・分析"
+author: "朝日新聞デジタル企画報道部　小宮山亮磨 @ryomakom"
+date: "2024/2/10"
+output:
+  html_document:
+    df_print: paged
+---
+
 ## 旧統一教会が参院選に与えた影響を推定した論文について
 「旧統一教会が参院選に与えた影響の推定　自民党・井上義行氏の得票を例に」という論文が、日本選挙学会の機関誌「[選挙研究](https://www.jaesnet.org/research/publications/index.html)」に掲載いただけることになりました。掲載に先立ち、概要を説明します。
 
