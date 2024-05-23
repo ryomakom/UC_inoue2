@@ -3,7 +3,7 @@
 <div align="right">
 朝日新聞デジタル企画報道部　小宮山亮磨  <br>
 @ryomakom  <br>
-2023/5/23  </div>
+2024/5/23  </div>
 
 
 
